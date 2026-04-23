@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galaxy Digital Investor Primer</title>
+  <style>
+    :root {
+      --bg: #f4f6fb;
+      --ink: #101828;
+      --muted: #475467;
+      --line: #d9e0ec;
+      --panel: #ffffff;
+      --navy: #0f1f45;
+      --blue: #2e5bff;
+      --green: #0f9d74;
+      --soft: #edf3ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 20px 64px;
+    }
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+      color: var(--muted);
+      font-size: 13px;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+    .hero {
+      background: linear-gradient(135deg, #0f1f45 0%, #1a326d 100%);
+      color: white;
+      border-radius: 24px;
+      padding: 38px;
+      box-shadow: 0 25px 70px rgba(15,31,69,.20);
+      margin-bottom: 22px;
+    }
+    .hero .eyebrow {
+      color: #b8cbff;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .hero h1 {
+      margin: 0 0 12px;
+      font-size: 44px;
+      line-height: 1.05;
+    }
+    .hero .tagline {
+      font-size: 24px;
+      color: #d8e4ff;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    .hero p {
+      margin: 0;
+      max-width: 920px;
+      color: #edf2ff;
+      font-size: 18px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 18px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 0 10px 28px rgba(16,24,40,.04);
+    }
+    .span-8 { grid-column: span 8; }
+    .span-4 { grid-column: span 4; }
+    .span-6 { grid-column: span 6; }
+    .span-12 { grid-column: span 12; }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 24px;
+      color: var(--navy);
+    }
+    h3 {
+      margin: 0 0 10px;
+      font-size: 18px;
+      color: var(--navy);
+    }
+    p { margin: 0 0 14px; color: var(--muted); }
+    ul { margin: 0; padding-left: 18px; color: var(--muted); }
+    li { margin-bottom: 9px; }
+    .quote {
+      font-size: 22px;
+      line-height: 1.35;
+      font-weight: 700;
+      color: var(--navy);
+    }
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+    .pill {
+      background: var(--soft);
+      color: var(--navy);
+      border: 1px solid #cddaff;
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .sotp {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    .sotp th, .sotp td {
+      border-bottom: 1px solid var(--line);
+      padding: 12px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    .sotp th {
+      color: var(--navy);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+    .case-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+    .case {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px;
+      background: #fbfcff;
+    }
+    .case.bull { border-color: #b9e9da; background: #f4fdf8; }
+    .case.base { border-color: #d5def2; }
+    .case.bear { border-color: #f0d0d0; background: #fff8f8; }
+    .label {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      color: var(--muted);
+    }
+    .footer {
+      margin-top: 22px;
+      font-size: 12px;
+      color: #667085;
+    }
+    @media (max-width: 960px) {
+      .span-8, .span-4, .span-6, .span-12 { grid-column: span 12; }
+      .case-grid { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 34px; }
+      .hero .tagline { font-size: 20px; }
+      .hero p { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div>Galaxy Digital (GLXY / BRPHF)</div>
+      <div>Investor Primer / Internal Draft</div>
+    </div>
+
+    <section class="hero">
+      <div class="eyebrow">Professional Cover Sheet</div>
+      <h1>Galaxy Digital</h1>
+      <div class="tagline">Owning the rails of digital finance and digital infrastructure</div>
+      <p>Galaxy Digital should not be viewed simply as a crypto proxy. The stronger long-run investment case is that Galaxy is building a hybrid platform at the intersection of institutional digital-asset finance, tokenization, staking and yield infrastructure, and large-scale infrastructure through Helios. If capital markets, digital assets, and compute infrastructure continue converging, Galaxy has the potential to emerge as a strategically important platform with multiple engines of value creation.</p>
+      <div class="pill-row">
+        <div class="pill">Institutional Bridge</div>
+        <div class="pill">Tokenization</div>
+        <div class="pill">Staking / Yield</div>
+        <div class="pill">Helios / AI Infrastructure</div>
+        <div class="pill">Digital Financial Rails</div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card span-8">
+        <h2>Investment Thesis</h2>
+        <p>Galaxy represents a differentiated way to gain exposure to the long-term institutionalization of digital assets. Rather than relying on a single business line or narrow token-price narrative, Galaxy is building a diversified operating platform spanning trading, asset management, staking, treasury and yield products, tokenization-related opportunities, and data-center / infrastructure optionality.</p>
+        <p>As the digital-asset ecosystem matures, the largest winners are likely to be firms that combine institutional credibility, market access, infrastructure ownership, and the ability to intermediate between traditional finance and crypto-native rails. We believe Galaxy is one of the few public companies with the breadth to potentially occupy that role.</p>
+      </article>
+
+      <article class="card span-4">
+        <h2>TL;DR</h2>
+        <p class="quote">Galaxy is not just a bet on crypto prices — it is a bet that finance and infrastructure increasingly move onto digital rails, and that Galaxy can own valuable pieces of that transition.</p>
+      </article>
+
+      <article class="card span-6">
+        <h2>Main Points</h2>
+        <ul>
+          <li><strong>Institutional bridge platform:</strong> connects traditional capital with crypto-native markets and infrastructure</li>
+          <li><strong>Tokenization optionality:</strong> relevant if funds, securities, and credit migrate onchain</li>
+          <li><strong>Yield and staking exposure:</strong> benefits from institutionalization of digital-asset income products</li>
+          <li><strong>Helios upside:</strong> potential value as strategic power, data-center, and AI/HPC infrastructure</li>
+          <li><strong>Multi-engine model:</strong> not reliant on one token, one product, or one business line</li>
+        </ul>
+      </article>
+
+      <article class="card span-6">
+        <h2>What the Market May Be Underestimating</h2>
+        <ul>
+          <li>Helios may be worth materially more as digital infrastructure than as a simple crypto-adjacent asset</li>
+          <li>Tokenization could become a larger economic opportunity than consensus expects</li>
+          <li>Institutional adoption may reward integrated, trusted platforms over narrow operators</li>
+          <li>Galaxy’s bridge role may become more valuable as regulated access and tokenized product demand broaden</li>
+        </ul>
+      </article>
+
+      <article class="card span-12">
+        <h2>SOTP / Valuation Framing</h2>
+        <table class="sotp">
+          <thead>
+            <tr>
+              <th>Segment</th>
+              <th>Strategic Role</th>
+              <th>Why It Matters</th>
+              <th>Valuation Lens</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Trading / Markets</strong></td>
+              <td>Liquidity, execution, institutional access</td>
+              <td>Supports Galaxy’s role as a core market intermediary</td>
+              <td>Cyclical earnings + franchise value</td>
+            </tr>
+            <tr>
+              <td><strong>Asset Management / Wealth / Yield</strong></td>
+              <td>Fee-based exposure to digital-asset adoption</td>
+              <td>Can improve recurring revenue mix over time</td>
+              <td>AUM / fee multiple mindset</td>
+            </tr>
+            <tr>
+              <td><strong>Tokenization / Market Structure</strong></td>
+              <td>Optionality on future onchain capital markets</td>
+              <td>Could become a high-value control point if RWAs scale</td>
+              <td>Strategic option value</td>
+            </tr>
+            <tr>
+              <td><strong>Staking / Treasury Products</strong></td>
+              <td>Digital-asset income infrastructure</td>
+              <td>Useful bridge between institutional capital and crypto-native yield</td>
+              <td>Platform / product multiple</td>
+            </tr>
+            <tr>
+              <td><strong>Helios / Infrastructure</strong></td>
+              <td>Power, land, data-center, AI/HPC optionality</td>
+              <td>Potential second engine and source of rerating</td>
+              <td>Infrastructure / scarcity value / replacement-cost framing</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <article class="card span-12">
+        <h2>Bull / Base / Bear Framing</h2>
+        <div class="case-grid">
+          <div class="case bull">
+            <div class="label">Bull</div>
+            <h3>Strategic platform rerating</h3>
+            <p>Galaxy becomes one of the most important public platforms spanning institutional digital finance and digital infrastructure. Tokenization gains traction, institutional adoption deepens, and Helios is increasingly valued as strategic AI / HPC infrastructure.</p>
+          </div>
+          <div class="case base">
+            <div class="label">Base</div>
+            <h3>Growing but still cyclical</h3>
+            <p>Galaxy grows as a meaningful institutional digital-asset platform, but the market still values it partly through the lens of crypto cyclicality. Tokenization and Helios remain promising but not fully rerated.</p>
+          </div>
+          <div class="case bear">
+            <div class="label">Bear</div>
+            <h3>Optionality stays unrealized</h3>
+            <p>Galaxy remains tied mainly to crypto sentiment, while tokenization and infrastructure optionality fail to convert into durable economics or strategic valuation support.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card span-6">
+        <h2>Key Risks</h2>
+        <ul>
+          <li>Digital-asset market weakness could continue pressuring sentiment and valuation</li>
+          <li>Tokenization adoption may develop more slowly than expected</li>
+          <li>Helios monetization may disappoint or take longer to prove out</li>
+          <li>Regulatory developments could delay or constrain growth</li>
+          <li>Execution risk remains meaningful across a broad platform</li>
+        </ul>
+      </article>
+
+      <article class="card span-6">
+        <h2>Bottom Line</h2>
+        <p>Galaxy is best understood as a strategic platform for a more digital financial system. It offers exposure not just to digital assets, but to the infrastructure, market structure, and institutional services that may define the next phase of adoption.</p>
+        <p><strong>Put simply:</strong> if the future of finance runs on digital rails, Galaxy is trying to own the toll booths.</p>
+      </article>
+    </section>
+
+    <div class="footer">Prepared in a bank-style investor-facing format for internal thesis development and local presentation use.</div>
+  </div>
+</body>
+</html>
