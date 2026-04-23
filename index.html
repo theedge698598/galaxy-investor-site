@@ -3,319 +3,559 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Galaxy Digital Investor Primer</title>
+  <title>Galaxy Digital — DreamRun Test Primer</title>
   <style>
     :root {
-      --bg: #f4f6fb;
-      --ink: #101828;
-      --muted: #475467;
-      --line: #d9e0ec;
-      --panel: #ffffff;
-      --navy: #0f1f45;
-      --blue: #2e5bff;
-      --green: #0f9d74;
-      --soft: #edf3ff;
+      --bg: #07111f;
+      --bg-2: #0c1730;
+      --panel: rgba(14, 24, 47, 0.78);
+      --panel-solid: #101b33;
+      --line: rgba(255,255,255,0.10);
+      --text: #eef4ff;
+      --muted: #aab7d6;
+      --blue: #6d9dff;
+      --cyan: #6ef2df;
+      --green: #3ddc97;
+      --amber: #f4c15d;
+      --red: #f28c8c;
+      --shadow: 0 25px 80px rgba(0,0,0,.38);
     }
     * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body {
       margin: 0;
+      color: var(--text);
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-      color: var(--ink);
-      background: var(--bg);
-      line-height: 1.6;
+      background:
+        radial-gradient(circle at top left, rgba(76,112,255,0.18), transparent 28%),
+        radial-gradient(circle at 85% 10%, rgba(50,228,197,0.14), transparent 22%),
+        linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
+      line-height: 1.58;
     }
-    .wrap {
-      max-width: 1180px;
+    a { color: inherit; text-decoration: none; }
+    .shell {
+      max-width: 1280px;
       margin: 0 auto;
-      padding: 28px 20px 64px;
+      padding: 24px 20px 72px;
     }
-    .topbar {
+    .nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 18px;
-      color: var(--muted);
-      font-size: 13px;
-      letter-spacing: .04em;
+      gap: 16px;
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(18px);
+      background: rgba(7,17,31,0.65);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      padding: 14px 0;
+      z-index: 10;
+    }
+    .brand {
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: .14em;
       text-transform: uppercase;
+      color: #d7e3ff;
+    }
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      color: var(--muted);
+      font-size: 14px;
     }
     .hero {
-      background: linear-gradient(135deg, #0f1f45 0%, #1a326d 100%);
-      color: white;
-      border-radius: 24px;
-      padding: 38px;
-      box-shadow: 0 25px 70px rgba(15,31,69,.20);
-      margin-bottom: 22px;
+      padding: 54px 0 26px;
+      display: grid;
+      grid-template-columns: 1.35fr 0.9fr;
+      gap: 22px;
+      align-items: stretch;
     }
-    .hero .eyebrow {
-      color: #b8cbff;
+    .hero-main,
+    .hero-side,
+    .panel,
+    .matrix,
+    .timeline,
+    .footer-note {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(14px);
+    }
+    .hero-main {
+      padding: 34px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-main::after {
+      content: "";
+      position: absolute;
+      inset: auto -100px -120px auto;
+      width: 280px;
+      height: 280px;
+      background: radial-gradient(circle, rgba(110,242,223,.22), transparent 68%);
+      pointer-events: none;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
       font-size: 12px;
-      font-weight: 700;
+      font-weight: 800;
       letter-spacing: .16em;
       text-transform: uppercase;
-      margin-bottom: 10px;
+      color: #b8cbff;
+      margin-bottom: 14px;
     }
-    .hero h1 {
-      margin: 0 0 12px;
-      font-size: 44px;
-      line-height: 1.05;
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--cyan);
+      box-shadow: 0 0 0 6px rgba(110,242,223,.10);
     }
-    .hero .tagline {
+    h1 {
+      margin: 0 0 14px;
+      font-size: 58px;
+      line-height: .96;
+      letter-spacing: -0.04em;
+    }
+    .hero-tagline {
       font-size: 24px;
-      color: #d8e4ff;
       font-weight: 700;
+      color: #d9e5ff;
       margin-bottom: 16px;
+      max-width: 720px;
     }
-    .hero p {
-      margin: 0;
-      max-width: 920px;
-      color: #edf2ff;
-      font-size: 18px;
+    .hero-copy {
+      color: var(--muted);
+      font-size: 17px;
+      max-width: 760px;
+      margin-bottom: 22px;
     }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      gap: 18px;
-    }
-    .card {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 20px;
-      padding: 24px;
-      box-shadow: 0 10px 28px rgba(16,24,40,.04);
-    }
-    .span-8 { grid-column: span 8; }
-    .span-4 { grid-column: span 4; }
-    .span-6 { grid-column: span 6; }
-    .span-12 { grid-column: span 12; }
-    h2 {
-      margin: 0 0 12px;
-      font-size: 24px;
-      color: var(--navy);
-    }
-    h3 {
-      margin: 0 0 10px;
-      font-size: 18px;
-      color: var(--navy);
-    }
-    p { margin: 0 0 14px; color: var(--muted); }
-    ul { margin: 0; padding-left: 18px; color: var(--muted); }
-    li { margin-bottom: 9px; }
-    .quote {
-      font-size: 22px;
-      line-height: 1.35;
-      font-weight: 700;
-      color: var(--navy);
-    }
-    .pill-row {
+    .chips {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
-      margin-top: 16px;
+      margin-bottom: 28px;
     }
-    .pill {
-      background: var(--soft);
-      color: var(--navy);
-      border: 1px solid #cddaff;
+    .chip {
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.04);
+      color: #e7efff;
       border-radius: 999px;
-      padding: 8px 12px;
+      padding: 9px 14px;
       font-size: 13px;
       font-weight: 700;
     }
-    .sotp {
+    .hero-metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .metric {
+      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.03);
+      border-radius: 18px;
+      padding: 16px;
+    }
+    .metric .k {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      color: #9cb0db;
+      margin-bottom: 8px;
+    }
+    .metric .v {
+      font-size: 22px;
+      font-weight: 800;
+      margin-bottom: 6px;
+      line-height: 1.15;
+    }
+    .metric .s { color: var(--muted); font-size: 13px; }
+    .hero-side {
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .hero-side h2,
+    .panel h2,
+    .matrix h2,
+    .timeline h2 { margin: 0 0 10px; font-size: 24px; }
+    .thesis-box {
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 20px;
+      background: rgba(255,255,255,0.03);
+      padding: 18px;
+    }
+    .thesis-box strong { color: #fff; }
+    .quote {
+      font-size: 22px;
+      line-height: 1.35;
+      font-weight: 800;
+      color: #ffffff;
+    }
+    .section-grid {
+      display: grid;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 18px;
+    }
+    .panel {
+      padding: 24px;
+      grid-column: span 12;
+    }
+    .span-7 { grid-column: span 7; }
+    .span-5 { grid-column: span 5; }
+    .span-4 { grid-column: span 4; }
+    .span-6 { grid-column: span 6; }
+    .span-8 { grid-column: span 8; }
+    .two-col {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .subpanel {
+      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.03);
+      border-radius: 20px;
+      padding: 18px;
+    }
+    .subpanel h3,
+    .case h3 { margin: 0 0 8px; font-size: 18px; }
+    p { margin: 0 0 12px; color: var(--muted); }
+    ul { margin: 0; padding-left: 18px; color: var(--muted); }
+    li { margin-bottom: 9px; }
+    .matrix {
+      grid-column: span 12;
+      padding: 24px;
+      overflow: hidden;
+    }
+    .table-wrap { overflow-x: auto; }
+    table {
       width: 100%;
       border-collapse: collapse;
+      min-width: 900px;
+    }
+    th, td {
+      text-align: left;
+      padding: 14px 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      vertical-align: top;
       font-size: 14px;
     }
-    .sotp th, .sotp td {
-      border-bottom: 1px solid var(--line);
-      padding: 12px 10px;
-      text-align: left;
-      vertical-align: top;
-    }
-    .sotp th {
-      color: var(--navy);
+    th {
       font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .10em;
+      color: #b8cbff;
+    }
+    .signal {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
       text-transform: uppercase;
       letter-spacing: .08em;
     }
-    .case-grid {
+    .signal.green { background: rgba(61,220,151,.12); color: var(--green); }
+    .signal.amber { background: rgba(244,193,93,.12); color: var(--amber); }
+    .signal.red { background: rgba(242,140,140,.12); color: var(--red); }
+    .cases {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 14px;
     }
     .case {
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      padding: 18px;
-      background: #fbfcff;
+      border-radius: 22px;
+      padding: 20px;
+      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.03);
     }
-    .case.bull { border-color: #b9e9da; background: #f4fdf8; }
-    .case.base { border-color: #d5def2; }
-    .case.bear { border-color: #f0d0d0; background: #fff8f8; }
-    .label {
-      display: inline-block;
-      font-size: 11px;
+    .case.bull { background: rgba(61,220,151,.08); border-color: rgba(61,220,151,.18); }
+    .case.base { background: rgba(109,157,255,.08); border-color: rgba(109,157,255,.18); }
+    .case.bear { background: rgba(242,140,140,.08); border-color: rgba(242,140,140,.18); }
+    .timeline {
+      grid-column: span 12;
+      padding: 24px;
+    }
+    .timeline-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .step {
+      padding: 18px;
+      border-radius: 18px;
+      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.03);
+    }
+    .step .n {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: rgba(109,157,255,.16);
+      color: #fff;
       font-weight: 800;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-      margin-bottom: 8px;
+      margin-bottom: 12px;
+    }
+    .footer-note {
+      margin-top: 18px;
+      padding: 18px 22px;
+      font-size: 13px;
       color: var(--muted);
     }
-    .footer {
-      margin-top: 22px;
-      font-size: 12px;
-      color: #667085;
+    @media (max-width: 1120px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .timeline-grid, .cases, .two-col { grid-template-columns: 1fr; }
+      .span-7, .span-5, .span-4, .span-6, .span-8 { grid-column: span 12; }
     }
-    @media (max-width: 960px) {
-      .span-8, .span-4, .span-6, .span-12 { grid-column: span 12; }
-      .case-grid { grid-template-columns: 1fr; }
-      .hero h1 { font-size: 34px; }
-      .hero .tagline { font-size: 20px; }
-      .hero p { font-size: 16px; }
+    @media (max-width: 720px) {
+      h1 { font-size: 40px; }
+      .hero-tagline { font-size: 20px; }
+      .hero-metrics { grid-template-columns: 1fr; }
+      .nav { position: static; }
     }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="topbar">
-      <div>Galaxy Digital (GLXY / BRPHF)</div>
-      <div>Investor Primer / Internal Draft</div>
+  <div class="shell">
+    <div class="nav">
+      <div class="brand">Galaxy Digital / DreamRun Test</div>
+      <div class="nav-links">
+        <a href="#thesis">Thesis</a>
+        <a href="#engines">Value Engines</a>
+        <a href="#matrix">SOTP Matrix</a>
+        <a href="#cases">Scenarios</a>
+        <a href="#roadmap">What rerates it</a>
+      </div>
     </div>
 
     <section class="hero">
-      <div class="eyebrow">Professional Cover Sheet</div>
-      <h1>Galaxy Digital</h1>
-      <div class="tagline">Owning the rails of digital finance and digital infrastructure</div>
-      <p>Galaxy Digital should not be viewed simply as a crypto proxy. The stronger long-run investment case is that Galaxy is building a hybrid platform at the intersection of institutional digital-asset finance, tokenization, staking and yield infrastructure, and large-scale infrastructure through Helios. If capital markets, digital assets, and compute infrastructure continue converging, Galaxy has the potential to emerge as a strategically important platform with multiple engines of value creation.</p>
-      <div class="pill-row">
-        <div class="pill">Institutional Bridge</div>
-        <div class="pill">Tokenization</div>
-        <div class="pill">Staking / Yield</div>
-        <div class="pill">Helios / AI Infrastructure</div>
-        <div class="pill">Digital Financial Rails</div>
+      <div class="hero-main">
+        <div class="eyebrow"><span class="dot"></span> Investor primer / experimental redesign</div>
+        <h1>Galaxy Digital</h1>
+        <div class="hero-tagline">A bet on digital financial rails, strategic infrastructure, and the convergence of crypto, capital markets, and compute.</div>
+        <p class="hero-copy">This is the stronger version of the Galaxy pitch: not “crypto stock with beta,” but a hybrid platform that could matter if tokenized finance scales, institutional digital-asset flows deepen, and Helios increasingly gets valued as scarce digital infrastructure. In that world, Galaxy is trying to own both the transaction layer and some of the underlying toll roads.</p>
+        <div class="chips">
+          <div class="chip">Institutional bridge</div>
+          <div class="chip">Tokenization optionality</div>
+          <div class="chip">Staking & yield rails</div>
+          <div class="chip">Helios / AI-HPC infrastructure</div>
+          <div class="chip">Multi-engine platform</div>
+        </div>
+        <div class="hero-metrics">
+          <div class="metric"><div class="k">Core framing</div><div class="v">Hybrid platform</div><div class="s">Not a single-line crypto proxy</div></div>
+          <div class="metric"><div class="k">Most underappreciated asset</div><div class="v">Helios</div><div class="s">Potential scarcity + infrastructure rerating</div></div>
+          <div class="metric"><div class="k">Best setup</div><div class="v">SOTP</div><div class="s">Parts may be worth more than headline view</div></div>
+          <div class="metric"><div class="k">Core question</div><div class="v">Can it become a control point?</div><div class="s">For digital finance + infrastructure flows</div></div>
+        </div>
       </div>
+
+      <aside class="hero-side">
+        <div>
+          <h2>One-line thesis</h2>
+          <p class="quote">If finance runs on digital rails and compute becomes strategic infrastructure, Galaxy is one of the few public companies positioned to touch both.</p>
+        </div>
+        <div class="thesis-box">
+          <strong>What matters:</strong>
+          <p>Galaxy combines institutional credibility, crypto-native market plumbing, product breadth, and infrastructure optionality in a way that very few listed vehicles do.</p>
+        </div>
+        <div class="thesis-box">
+          <strong>What the market may still be missing:</strong>
+          <p>The real upside is not just higher crypto prices. It is a rerating if Galaxy proves it owns economically important layers in tokenized finance, institutional yield products, and Helios-backed infrastructure.</p>
+        </div>
+      </aside>
     </section>
 
-    <section class="grid">
-      <article class="card span-8">
-        <h2>Investment Thesis</h2>
-        <p>Galaxy represents a differentiated way to gain exposure to the long-term institutionalization of digital assets. Rather than relying on a single business line or narrow token-price narrative, Galaxy is building a diversified operating platform spanning trading, asset management, staking, treasury and yield products, tokenization-related opportunities, and data-center / infrastructure optionality.</p>
-        <p>As the digital-asset ecosystem matures, the largest winners are likely to be firms that combine institutional credibility, market access, infrastructure ownership, and the ability to intermediate between traditional finance and crypto-native rails. We believe Galaxy is one of the few public companies with the breadth to potentially occupy that role.</p>
-      </article>
-
-      <article class="card span-4">
-        <h2>TL;DR</h2>
-        <p class="quote">Galaxy is not just a bet on crypto prices — it is a bet that finance and infrastructure increasingly move onto digital rails, and that Galaxy can own valuable pieces of that transition.</p>
-      </article>
-
-      <article class="card span-6">
-        <h2>Main Points</h2>
-        <ul>
-          <li><strong>Institutional bridge platform:</strong> connects traditional capital with crypto-native markets and infrastructure</li>
-          <li><strong>Tokenization optionality:</strong> relevant if funds, securities, and credit migrate onchain</li>
-          <li><strong>Yield and staking exposure:</strong> benefits from institutionalization of digital-asset income products</li>
-          <li><strong>Helios upside:</strong> potential value as strategic power, data-center, and AI/HPC infrastructure</li>
-          <li><strong>Multi-engine model:</strong> not reliant on one token, one product, or one business line</li>
-        </ul>
-      </article>
-
-      <article class="card span-6">
-        <h2>What the Market May Be Underestimating</h2>
-        <ul>
-          <li>Helios may be worth materially more as digital infrastructure than as a simple crypto-adjacent asset</li>
-          <li>Tokenization could become a larger economic opportunity than consensus expects</li>
-          <li>Institutional adoption may reward integrated, trusted platforms over narrow operators</li>
-          <li>Galaxy’s bridge role may become more valuable as regulated access and tokenized product demand broaden</li>
-        </ul>
-      </article>
-
-      <article class="card span-12">
-        <h2>SOTP / Valuation Framing</h2>
-        <table class="sotp">
-          <thead>
-            <tr>
-              <th>Segment</th>
-              <th>Strategic Role</th>
-              <th>Why It Matters</th>
-              <th>Valuation Lens</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>Trading / Markets</strong></td>
-              <td>Liquidity, execution, institutional access</td>
-              <td>Supports Galaxy’s role as a core market intermediary</td>
-              <td>Cyclical earnings + franchise value</td>
-            </tr>
-            <tr>
-              <td><strong>Asset Management / Wealth / Yield</strong></td>
-              <td>Fee-based exposure to digital-asset adoption</td>
-              <td>Can improve recurring revenue mix over time</td>
-              <td>AUM / fee multiple mindset</td>
-            </tr>
-            <tr>
-              <td><strong>Tokenization / Market Structure</strong></td>
-              <td>Optionality on future onchain capital markets</td>
-              <td>Could become a high-value control point if RWAs scale</td>
-              <td>Strategic option value</td>
-            </tr>
-            <tr>
-              <td><strong>Staking / Treasury Products</strong></td>
-              <td>Digital-asset income infrastructure</td>
-              <td>Useful bridge between institutional capital and crypto-native yield</td>
-              <td>Platform / product multiple</td>
-            </tr>
-            <tr>
-              <td><strong>Helios / Infrastructure</strong></td>
-              <td>Power, land, data-center, AI/HPC optionality</td>
-              <td>Potential second engine and source of rerating</td>
-              <td>Infrastructure / scarcity value / replacement-cost framing</td>
-            </tr>
-          </tbody>
-        </table>
-      </article>
-
-      <article class="card span-12">
-        <h2>Bull / Base / Bear Framing</h2>
-        <div class="case-grid">
-          <div class="case bull">
-            <div class="label">Bull</div>
-            <h3>Strategic platform rerating</h3>
-            <p>Galaxy becomes one of the most important public platforms spanning institutional digital finance and digital infrastructure. Tokenization gains traction, institutional adoption deepens, and Helios is increasingly valued as strategic AI / HPC infrastructure.</p>
+    <section class="section-grid" id="thesis">
+      <article class="panel span-7">
+        <h2>Why this version is stronger</h2>
+        <p>The old version already had the right bones. This test version pushes the framing harder: Galaxy is not just diversified, it is strategically diversified. Its value may come from being present at multiple points where traditional capital, digital assets, and infrastructure converge.</p>
+        <p>That means the right lens is less “what multiple should crypto earnings get?” and more “which parts of this business could become bottlenecks, toll booths, or scarce assets if the next market structure shift actually happens?”</p>
+        <div class="two-col">
+          <div class="subpanel">
+            <h3>What bulls see</h3>
+            <ul>
+              <li>an institutional bridge with product depth</li>
+              <li>tokenization as a much larger future control point</li>
+              <li>Helios as strategic infrastructure, not side optionality</li>
+              <li>more than one way to win if digital finance expands</li>
+            </ul>
           </div>
-          <div class="case base">
-            <div class="label">Base</div>
-            <h3>Growing but still cyclical</h3>
-            <p>Galaxy grows as a meaningful institutional digital-asset platform, but the market still values it partly through the lens of crypto cyclicality. Tokenization and Helios remain promising but not fully rerated.</p>
-          </div>
-          <div class="case bear">
-            <div class="label">Bear</div>
-            <h3>Optionality stays unrealized</h3>
-            <p>Galaxy remains tied mainly to crypto sentiment, while tokenization and infrastructure optionality fail to convert into durable economics or strategic valuation support.</p>
+          <div class="subpanel">
+            <h3>What skeptics see</h3>
+            <ul>
+              <li>still tied to crypto cycles and sentiment</li>
+              <li>optionalities that may stay optional forever</li>
+              <li>execution spread too wide across businesses</li>
+              <li>market structure upside that arrives slower than hoped</li>
+            </ul>
           </div>
         </div>
       </article>
 
-      <article class="card span-6">
-        <h2>Key Risks</h2>
+      <article class="panel span-5">
+        <h2>What the market may be underpricing</h2>
         <ul>
-          <li>Digital-asset market weakness could continue pressuring sentiment and valuation</li>
-          <li>Tokenization adoption may develop more slowly than expected</li>
-          <li>Helios monetization may disappoint or take longer to prove out</li>
-          <li>Regulatory developments could delay or constrain growth</li>
-          <li>Execution risk remains meaningful across a broad platform</li>
+          <li><strong>Helios:</strong> potentially worth more under infrastructure scarcity logic than under simple crypto-adjacent logic</li>
+          <li><strong>Tokenization:</strong> control points in market structure can be worth more than people expect before they mature</li>
+          <li><strong>Institutional yield rails:</strong> boring product plumbing can become high-value if it earns trust and scale</li>
+          <li><strong>Platform breadth:</strong> diversified operating exposure can matter more than narrow “pure play” labels</li>
         </ul>
-      </article>
-
-      <article class="card span-6">
-        <h2>Bottom Line</h2>
-        <p>Galaxy is best understood as a strategic platform for a more digital financial system. It offers exposure not just to digital assets, but to the infrastructure, market structure, and institutional services that may define the next phase of adoption.</p>
-        <p><strong>Put simply:</strong> if the future of finance runs on digital rails, Galaxy is trying to own the toll booths.</p>
       </article>
     </section>
 
-    <div class="footer">Prepared in a bank-style investor-facing format for internal thesis development and local presentation use.</div>
+    <section class="section-grid" id="engines">
+      <article class="panel span-12">
+        <h2>Galaxy’s value engines</h2>
+        <div class="two-col">
+          <div class="subpanel">
+            <h3>1) Markets / trading / execution</h3>
+            <p>Liquidity, access, and intermediation give Galaxy relevance wherever institutional digital-asset activity is real.</p>
+          </div>
+          <div class="subpanel">
+            <h3>2) Asset management / wealth / yield</h3>
+            <p>Fee-bearing exposure matters because recurring economics can lift the quality of the whole platform.</p>
+          </div>
+          <div class="subpanel">
+            <h3>3) Tokenization / market structure</h3>
+            <p>If RWAs and onchain capital markets actually scale, trusted operators around issuance, access, and plumbing can rerate sharply.</p>
+          </div>
+          <div class="subpanel">
+            <h3>4) Staking / treasury products</h3>
+            <p>Institutional users need compliant, understandable bridges into digital-asset yield and treasury workflows.</p>
+          </div>
+          <div class="subpanel">
+            <h3>5) Helios / infrastructure</h3>
+            <p>The strongest non-consensus piece. Land, power, and data-center optionality can matter much more in an AI / HPC world.</p>
+          </div>
+          <div class="subpanel">
+            <h3>6) Brand + trust layer</h3>
+            <p>In messy emerging markets, trusted bridges often capture more than cleaner pure-play narratives suggest.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="matrix" id="matrix">
+      <h2>SOTP matrix</h2>
+      <p>Best way to think about the company: separate the engines, then ask which ones the market is under-crediting today.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Segment</th>
+              <th>Strategic role</th>
+              <th>Why it matters</th>
+              <th>Valuation lens</th>
+              <th>Current signal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Markets / Trading</strong></td>
+              <td>Liquidity, execution, institutional access</td>
+              <td>Supports Galaxy’s position as a real market intermediary</td>
+              <td>Cyclical earnings + franchise value</td>
+              <td><span class="signal amber">Important but cyclical</span></td>
+            </tr>
+            <tr>
+              <td><strong>Asset Management / Yield</strong></td>
+              <td>Fee-bearing digital finance products</td>
+              <td>Improves recurring revenue quality if scaled well</td>
+              <td>AUM / fee multiple mindset</td>
+              <td><span class="signal green">Quietly strategic</span></td>
+            </tr>
+            <tr>
+              <td><strong>Tokenization / Market Structure</strong></td>
+              <td>Onchain capital-markets optionality</td>
+              <td>Potentially the largest upside if Galaxy becomes a control point</td>
+              <td>Strategic option value</td>
+              <td><span class="signal green">Potentially underpriced</span></td>
+            </tr>
+            <tr>
+              <td><strong>Staking / Treasury Products</strong></td>
+              <td>Income and operating rails for institutions</td>
+              <td>Useful bridge between traditional capital and digital-native workflows</td>
+              <td>Platform / product multiple</td>
+              <td><span class="signal amber">Useful bridge layer</span></td>
+            </tr>
+            <tr>
+              <td><strong>Helios / Infrastructure</strong></td>
+              <td>Power, land, data-center, AI / HPC optionality</td>
+              <td>Could become a second engine and rerating anchor</td>
+              <td>Infrastructure scarcity / replacement-cost framing</td>
+              <td><span class="signal green">Most underappreciated</span></td>
+            </tr>
+            <tr>
+              <td><strong>Corporate trust / network</strong></td>
+              <td>Institutional brand + access</td>
+              <td>Bridges usually gain value as complexity rises</td>
+              <td>Embedded premium in other segments</td>
+              <td><span class="signal amber">Hard to isolate, easy to miss</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section-grid" id="cases">
+      <article class="panel span-12">
+        <h2>Bull / base / bear</h2>
+        <div class="cases">
+          <div class="case bull">
+            <h3>Bull — strategic platform rerating</h3>
+            <p>Galaxy becomes one of the most important public platforms spanning institutional digital finance and strategic digital infrastructure. Tokenization becomes real, institutional product depth compounds, and Helios is increasingly recognized as scarce infrastructure with AI / HPC relevance.</p>
+          </div>
+          <div class="case base">
+            <h3>Base — good platform, partial rerating</h3>
+            <p>Galaxy grows into a serious institutional digital-asset platform, but public markets still view it partly through crypto cyclicality. Tokenization and Helios matter, but not enough yet to fully break the old framing.</p>
+          </div>
+          <div class="case bear">
+            <h3>Bear — optionality stays optional</h3>
+            <p>The company remains hostage to crypto sentiment, while tokenization takes too long and Helios fails to produce strong visible economics. The story stays interesting, but the rerating never arrives.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="timeline" id="roadmap">
+      <h2>What would take this to the next level</h2>
+      <div class="timeline-grid">
+        <div class="step">
+          <div class="n">1</div>
+          <h3>Sharper proof around Helios</h3>
+          <p>Anything that more concretely ties Helios to infrastructure scarcity, AI / HPC demand, or strategic counterparties raises the floor under the thesis.</p>
+        </div>
+        <div class="step">
+          <div class="n">2</div>
+          <h3>Visible tokenization traction</h3>
+          <p>Not generic commentary — actual product, client, issuance, or market-structure evidence that Galaxy has a real place in the stack.</p>
+        </div>
+        <div class="step">
+          <div class="n">3</div>
+          <h3>Better recurring revenue mix</h3>
+          <p>The more the platform shows durable fee-bearing components, the easier it is to escape a pure crypto-beta framing.</p>
+        </div>
+        <div class="step">
+          <div class="n">4</div>
+          <h3>Cleaner investor narrative</h3>
+          <p>The company benefits if investors start seeing the pieces as an integrated strategic platform rather than a pile of adjacent businesses.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer-note">Test site built as a higher-polish concept pass inspired by a DreamRun-style presentation approach: darker, more cinematic, more “premium platform” than plain bank memo. File is local-only unless you want me to publish it.</div>
   </div>
 </body>
 </html>
