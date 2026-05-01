@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" fill="none" aria-label="The Edge wordmark">
+  <g stroke="#136BFF" stroke-width="4" stroke-linecap="butt" fill="none" transform="translate(14 14) scale(0.767)">
+    <path d="M 60 14 A 46 46 0 0 1 106 60"></path>
+    <path d="M 106 60 A 46 46 0 0 1 60 106"></path>
+    <path d="M 60 106 A 46 46 0 0 1 14 60"></path>
+    <path d="M 14 60 A 46 46 0 0 1 60 14"></path>
+    <path d="M 42 40 L 42 80"></path>
+    <path d="M 42 40 L 80 40"></path>
+    <path d="M 42 60 L 72 60"></path>
+    <path d="M 42 80 L 78 80"></path>
+  </g>
+  <text x="128" y="64" font-family="Rajdhani, Inter, sans-serif" font-weight="600" font-size="44" fill="#F4F7FB" letter-spacing="0.5">The Edge</text>
+  <text x="128" y="88" font-family="&#39;Share Tech Mono&#39;, monospace" font-size="11" fill="#8993A3" letter-spacing="3.2">PREMIUM OPERATOR INTELLIGENCE</text>
+</svg>

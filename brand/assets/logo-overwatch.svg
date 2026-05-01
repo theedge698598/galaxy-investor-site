@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" aria-label="The Edge overwatch">
+  
+  <path d="M10 28 L60 28 L60 60 L35 60 Z" fill="#136BFF"></path>
+  <path d="M110 28 L60 28 L60 60 L85 60 Z" fill="#2E7BFF"></path>
+  <path d="M22 62 L60 62 L60 92 L40 92 Z" fill="#136BFF" opacity="0.9"></path>
+  <path d="M98 62 L60 62 L60 92 L80 92 Z" fill="#2E7BFF" opacity="0.9"></path>
+  <path d="M36 94 L60 94 L60 112 L48 112 Z" fill="#136BFF" opacity="0.8"></path>
+  <path d="M84 94 L60 94 L60 112 L72 112 Z" fill="#2E7BFF" opacity="0.8"></path>
+</svg>
