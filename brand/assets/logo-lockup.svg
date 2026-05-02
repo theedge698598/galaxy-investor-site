@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" fill="none" aria-label="The Edge wordmark">
-  <g stroke="#136BFF" stroke-width="4" stroke-linecap="butt" fill="none" transform="translate(14 14) scale(0.767)">
-    <path d="M 60 14 A 46 46 0 0 1 106 60"></path>
-    <path d="M 106 60 A 46 46 0 0 1 60 106"></path>
-    <path d="M 60 106 A 46 46 0 0 1 14 60"></path>
-    <path d="M 14 60 A 46 46 0 0 1 60 14"></path>
-    <path d="M 42 40 L 42 80"></path>
-    <path d="M 42 40 L 80 40"></path>
-    <path d="M 42 60 L 72 60"></path>
-    <path d="M 42 80 L 78 80"></path>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" role="img" aria-label="The Edge Investing Research">
+  <defs>
+    <clipPath id="edgeCut"><polygon points="0,0 75,0 95,100 0,100"/></clipPath>
+  </defs>
+  <g transform="translate(20 18) scale(.82)" fill="#0B0F0E" clip-path="url(#edgeCut)">
+    <rect x="14" y="14" width="14" height="72"/>
+    <rect x="14" y="14" width="80" height="14"/>
+    <rect x="14" y="43" width="60" height="14"/>
+    <rect x="14" y="72" width="80" height="14"/>
   </g>
-  <text x="128" y="64" font-family="Rajdhani, Inter, sans-serif" font-weight="600" font-size="44" fill="#F4F7FB" letter-spacing="0.5">The Edge</text>
-  <text x="128" y="88" font-family="&#39;Share Tech Mono&#39;, monospace" font-size="11" fill="#8993A3" letter-spacing="3.2">PREMIUM OPERATOR INTELLIGENCE</text>
+  <text x="126" y="62" font-family="Fraunces, Georgia, serif" font-size="44" font-weight="400" letter-spacing="-1.2" fill="#0B0F0E">The Edge</text>
+  <circle cx="314" cy="58" r="4.8" fill="#65D66E"/>
+  <text x="128" y="88" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" letter-spacing="3.2" fill="#6B6962">INVESTING RESEARCH</text>
 </svg>
