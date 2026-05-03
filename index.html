@@ -17,8 +17,7 @@
   .hero-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:80px;align-items:end;margin-top:48px}
   .hero-lede{font-size:22px;line-height:1.45;color:var(--ink-2);max-width:520px}
   .hero-cta{margin-top:32px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}.hero-cta .meta{font-size:13px;color:var(--muted)}
-  .artifact{background:var(--paper-2);border:1px solid var(--rule);padding:36px;position:relative;text-decoration:none;color:inherit;display:flex;flex-direction:column;min-height:540px;transition:opacity .28s ease,transform .28s ease}
-  .artifact.is-switching{opacity:.18;transform:translateY(6px)}
+  .artifact{background:var(--paper-2);border:1px solid var(--rule);padding:36px;position:relative;text-decoration:none;color:inherit;display:flex;flex-direction:column;min-height:540px}
   .artifact .ribbon{display:flex;justify-content:space-between;align-items:center;padding-bottom:16px;border-bottom:1px solid var(--rule);margin-bottom:20px;gap:16px}
   .artifact h3{font-family:var(--serif);font-size:36px;font-weight:400;line-height:1.1;letter-spacing:-.01em;font-variation-settings:"opsz" 144;margin:8px 0 12px;min-height:120px}
   .artifact [data-primer-deck]{min-height:64px}
@@ -92,15 +91,11 @@
   function render(next){
     index=next;
     const p=primers[index];
-    card.classList.add('is-switching');
-    window.setTimeout(()=>{
-      card.href=p.href; card.setAttribute('aria-label',p.label);
-      text('[data-primer-count]',p.count); text('[data-primer-ticker]',p.ticker); text('[data-primer-company]',p.company); text('[data-primer-title]',p.title); text('[data-primer-deck]',p.deck); text('[data-primer-label]',p.feature); text('[data-primer-category]',p.category);
-      setPath('[data-primer-fill]',p.fill); setPath('[data-primer-line]',p.line);
-      p.chips.forEach((chip,i)=>{text(`[data-primer-chip-${i+1}-label]`,chip[0]); const val=$(`[data-primer-chip-${i+1}-value]`); if(val){val.textContent=chip[1]; val.style.color=chip[2]==='edge'?'var(--edge-deep)':chip[2]==='rust'?'var(--rust)':'';}});
-      dots.forEach((d,i)=>d.classList.toggle('active',i===index));
-      card.classList.remove('is-switching');
-    },180);
+    card.href=p.href; card.setAttribute('aria-label',p.label);
+    text('[data-primer-count]',p.count); text('[data-primer-ticker]',p.ticker); text('[data-primer-company]',p.company); text('[data-primer-title]',p.title); text('[data-primer-deck]',p.deck); text('[data-primer-label]',p.feature); text('[data-primer-category]',p.category);
+    setPath('[data-primer-fill]',p.fill); setPath('[data-primer-line]',p.line);
+    p.chips.forEach((chip,i)=>{text(`[data-primer-chip-${i+1}-label]`,chip[0]); const val=$(`[data-primer-chip-${i+1}-value]`); if(val){val.textContent=chip[1]; val.style.color=chip[2]==='edge'?'var(--edge-deep)':chip[2]==='rust'?'var(--rust)':'';}});
+    dots.forEach((d,i)=>d.classList.toggle('active',i===index));
   }
   function start(){ if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) return; timer=window.setInterval(()=>{ if(!paused) render((index+1)%primers.length); },7000); }
   card.addEventListener('mouseenter',()=>paused=true); card.addEventListener('mouseleave',()=>paused=false); card.addEventListener('focusin',()=>paused=true); card.addEventListener('focusout',()=>paused=false);
