@@ -114,9 +114,14 @@ p { margin: 0; }
 @media (max-width: 900px) {
   .shell, .nav-in { padding-left: 20px; padding-right: 20px; }
   .nav nav a:not(.nav-cta) { display: none; }
-  .brand-logo { height: 46px; }
+  .brand-logo { height: 58px; }
   .section { padding: 64px 0; }
   .section-head { grid-template-columns: 1fr; gap: 14px; }
   .two, .three, .four { grid-template-columns: 1fr; }
   .footer .right { margin-left: 0; }
+}
+@media (max-width: 520px) {
+  .nav-in { padding-top: 14px; padding-bottom: 14px; }
+  .brand-logo { height: 64px; }
+  .nav .nav-cta { display: none; }
 }
