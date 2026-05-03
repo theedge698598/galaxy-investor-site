@@ -59,7 +59,7 @@ a { color: inherit; text-decoration: none; }
 img, svg { max-width: 100%; }
 
 .shell { max-width: 1180px; margin: 0 auto; padding: 0 32px; }
-.nav { position: sticky; top: 0; z-index: 20; background: rgba(244,241,236,.88); backdrop-filter: blur(16px); border-bottom: 1px solid var(--rule); }
+.nav { position: sticky; top: 0; z-index: 20; background: rgba(244,241,236,.88); backdrop-filter: blur(16px); border-bottom: 1px solid var(--rule); box-shadow: inset 0 -4px 0 var(--edge); }
 .nav-in { max-width: 1180px; margin: 0 auto; padding: 18px 32px; display: flex; align-items: center; gap: 32px; }
 .brand-logo { height: 58px; width: auto; display: block; }
 .nav nav { margin-left: auto; display: flex; align-items: center; gap: 28px; }
