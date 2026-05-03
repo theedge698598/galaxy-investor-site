@@ -17,11 +17,13 @@
   .hero-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:80px;align-items:end;margin-top:48px}
   .hero-lede{font-size:22px;line-height:1.45;color:var(--ink-2);max-width:520px}
   .hero-cta{margin-top:32px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}.hero-cta .meta{font-size:13px;color:var(--muted)}
-  .artifact{background:var(--paper-2);border:1px solid var(--rule);padding:36px;position:relative;text-decoration:none;color:inherit;display:flex;flex-direction:column;min-height:540px}
+  .primer-carousel{position:relative;height:560px;overflow:hidden}
+  .primer-track{display:flex;height:100%;transition:transform .55s cubic-bezier(.22,.61,.36,1);will-change:transform}
+  .artifact{background:var(--paper-2);border:1px solid var(--rule);padding:36px 36px 72px;position:relative;text-decoration:none;color:inherit;display:flex;flex:0 0 100%;flex-direction:column;height:100%;box-sizing:border-box}
   .artifact .ribbon{display:flex;justify-content:space-between;align-items:center;padding-bottom:16px;border-bottom:1px solid var(--rule);margin-bottom:20px;gap:16px}
   .artifact h3{font-family:var(--serif);font-size:36px;font-weight:400;line-height:1.1;letter-spacing:-.01em;font-variation-settings:"opsz" 144;margin:8px 0 12px;min-height:120px}
-  .artifact [data-primer-deck]{min-height:64px}
-  .artifact .artifact-meta{display:flex;justify-content:space-between;align-items:center;margin:24px 0 12px;gap:16px;border-top:1px solid var(--rule);padding-top:18px}.artifact .feature-label{font-family:var(--mono);font-size:20px;font-weight:600;font-variant-numeric:tabular-nums}.artifact-dots{display:flex;gap:8px;margin-top:auto;padding-top:18px}.artifact-dots button{width:9px;height:9px;border-radius:999px;border:1px solid var(--edge-deep);background:transparent;padding:0;cursor:pointer}.artifact-dots button.active{background:var(--edge-deep)}
+  .artifact .deck{min-height:64px}
+  .artifact .artifact-meta{display:flex;justify-content:space-between;align-items:center;margin:24px 0 12px;gap:16px;border-top:1px solid var(--rule);padding-top:18px}.artifact .feature-label{font-family:var(--mono);font-size:20px;font-weight:600;font-variant-numeric:tabular-nums}.artifact-dots{position:absolute;left:36px;bottom:36px;display:flex;gap:8px}.artifact-dots button{width:9px;height:9px;border-radius:999px;border:1px solid var(--edge-deep);background:transparent;padding:0;cursor:pointer}.artifact-dots button.active{background:var(--edge-deep)}
   .scenarios{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:18px}.scenario{background:var(--paper);border:1px solid var(--rule);padding:14px}.scenario .lab{font-family:var(--mono);font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}.scenario .val{font-family:var(--mono);font-size:18px;font-weight:600;margin-top:4px;font-variant-numeric:tabular-nums}
   .stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);margin-top:80px}.stat{padding:32px 24px;border-right:1px solid var(--rule)}.stat:last-child{border-right:none}.stat .num{font-family:var(--mono);font-size:36px;font-weight:500;font-variant-numeric:tabular-nums;letter-spacing:-.01em}.stat .lab{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-top:8px}
   .research-process{padding:80px 0;border-bottom:1px solid var(--rule)}
@@ -36,7 +38,7 @@
   .manifesto-meta{margin-top:64px;display:grid;grid-template-columns:repeat(4,1fr);gap:24px;border-top:1px solid rgba(244,241,236,.2);padding-top:24px}
   .manifesto-meta .v{font-family:var(--serif);font-size:22px;margin-top:8px;font-variation-settings:"opsz" 144}
   .research-preview{padding:96px 0;border-bottom:1px solid var(--rule)}
-  @media(max-width:900px){.hero{padding:72px 0 56px}.hero-mark{top:120px;left:auto;right:18px;width:280px;height:280px;opacity:.045}.hero-grid,.process-head{grid-template-columns:1fr;gap:36px}.hero h1{font-size:clamp(64px,18vw,96px)}.artifact{padding:28px;min-height:520px}.artifact h3{min-height:auto}.artifact [data-primer-deck]{min-height:auto}.artifact .artifact-meta{display:block}.stats-row,.manifesto-meta{grid-template-columns:1fr}.stat{border-right:none;border-bottom:1px solid var(--rule)}.stat:last-child{border-bottom:none}.process-grid{grid-template-columns:1fr}}
+  @media(max-width:900px){.hero{padding:72px 0 56px}.hero-mark{top:120px;left:auto;right:18px;width:280px;height:280px;opacity:.045}.hero-grid,.process-head{grid-template-columns:1fr;gap:36px}.hero h1{font-size:clamp(64px,18vw,96px)}.primer-carousel{height:540px}.artifact{padding:28px 28px 68px}.artifact h3{min-height:116px}.artifact .deck{min-height:76px}.artifact .artifact-meta{display:block}.artifact-dots{left:28px;bottom:28px}.stats-row,.manifesto-meta{grid-template-columns:1fr}.stat{border-right:none;border-bottom:1px solid var(--rule)}.stat:last-child{border-bottom:none}.process-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -52,16 +54,29 @@
         <p class="hero-lede">Plain-English investing research for serious retail investors. We don't try to own the average future — we try to own the assets that matter if our view of the future is right.</p>
         <div class="hero-cta"><a href="/research/qcom/" class="btn primary">Read this week's research →</a></div>
       </div>
-      <a href="/research/qcom/" class="artifact" id="featured-primer" aria-label="Read the Qualcomm primer">
-        <div class="ribbon"><span class="kicker" data-primer-kind>Stock primer · Featured</span><span class="kicker" data-primer-count>01 / 02</span></div>
-        <div style="display:flex;align-items:baseline;gap:10px"><span data-primer-ticker style="font-family:var(--mono);font-size:14px;font-weight:600">QCOM</span><span data-primer-company style="font-size:13px;color:var(--muted)">Qualcomm Inc.</span></div>
-        <h3 data-primer-title>The AI stock investors may be overlooking.</h3>
-        <p data-primer-deck style="font-size:14px;line-height:1.5;color:var(--ink-2);margin:0">The old story is phones. The new story may be on-device AI.</p>
-        <div class="artifact-meta"><span class="feature-label" data-primer-label>Edge compute</span><span class="kicker" data-primer-category>Semiconductors</span></div>
-        <svg viewBox="0 0 400 60" style="width:100%;height:60px;display:block" preserveAspectRatio="none" role="img" aria-label="Featured primer sample sparkline"><defs><linearGradient id="sparkfill" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="var(--edge)" stop-opacity="0.25"/><stop offset="100%" stop-color="var(--edge)" stop-opacity="0"/></linearGradient></defs><path data-primer-fill d="M0,42 L33,46 L66,38 L100,30 L133,34 L166,28 L200,22 L233,30 L266,18 L300,12 L333,8 L366,16 L400,4 L400,60 L0,60 Z" fill="url(#sparkfill)"/><path data-primer-line d="M0,42 L33,46 L66,38 L100,30 L133,34 L166,28 L200,22 L233,30 L266,18 L300,12 L333,8 L366,16 L400,4" fill="none" stroke="var(--edge-deep)" stroke-width="1.75"/></svg>
-        <div class="scenarios"><div class="scenario"><div class="lab" data-primer-chip-1-label>Thesis</div><div class="val" data-primer-chip-1-value style="color:var(--edge-deep)">Edge AI</div></div><div class="scenario"><div class="lab" data-primer-chip-2-label>Question</div><div class="val" data-primer-chip-2-value>Rerating</div></div><div class="scenario"><div class="lab" data-primer-chip-3-label>Risk</div><div class="val" data-primer-chip-3-value style="color:var(--rust)">Handsets</div></div></div>
+      <div class="primer-carousel" id="featured-primer" aria-label="Featured primers">
+        <div class="primer-track" data-primer-track>
+          <a href="/research/qcom/" class="artifact" aria-label="Read the Qualcomm primer">
+            <div class="ribbon"><span class="kicker">Stock primer · Featured</span><span class="kicker">01 / 02</span></div>
+            <div style="display:flex;align-items:baseline;gap:10px"><span style="font-family:var(--mono);font-size:14px;font-weight:600">QCOM</span><span style="font-size:13px;color:var(--muted)">Qualcomm Inc.</span></div>
+            <h3>The AI stock investors may be overlooking.</h3>
+            <p class="deck" style="font-size:14px;line-height:1.5;color:var(--ink-2);margin:0">The old story is phones. The new story may be on-device AI.</p>
+            <div class="artifact-meta"><span class="feature-label">Edge compute</span><span class="kicker">Semiconductors</span></div>
+            <svg viewBox="0 0 400 60" style="width:100%;height:60px;display:block" preserveAspectRatio="none" role="img" aria-label="Qualcomm primer sample sparkline"><defs><linearGradient id="sparkfill" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="var(--edge)" stop-opacity="0.25"/><stop offset="100%" stop-color="var(--edge)" stop-opacity="0"/></linearGradient></defs><path d="M0,42 L33,46 L66,38 L100,30 L133,34 L166,28 L200,22 L233,30 L266,18 L300,12 L333,8 L366,16 L400,4 L400,60 L0,60 Z" fill="url(#sparkfill)"/><path d="M0,42 L33,46 L66,38 L100,30 L133,34 L166,28 L200,22 L233,30 L266,18 L300,12 L333,8 L366,16 L400,4" fill="none" stroke="var(--edge-deep)" stroke-width="1.75"/></svg>
+            <div class="scenarios"><div class="scenario"><div class="lab">Thesis</div><div class="val" style="color:var(--edge-deep)">Edge AI</div></div><div class="scenario"><div class="lab">Question</div><div class="val">Rerating</div></div><div class="scenario"><div class="lab">Risk</div><div class="val" style="color:var(--rust)">Handsets</div></div></div>
+          </a>
+          <a href="/research/galaxy/" class="artifact" aria-label="Read the Galaxy Digital primer">
+            <div class="ribbon"><span class="kicker">Stock primer · Featured</span><span class="kicker">02 / 02</span></div>
+            <div style="display:flex;align-items:baseline;gap:10px"><span style="font-family:var(--mono);font-size:14px;font-weight:600">GLXY</span><span style="font-size:13px;color:var(--muted)">Galaxy Digital</span></div>
+            <h3>Crypto and AI infrastructure in one messy platform bet.</h3>
+            <p class="deck" style="font-size:14px;line-height:1.5;color:var(--ink-2);margin:0">Galaxy may be more than crypto beta: institutional digital-asset rails, tokenization optionality, and Helios AI/data-center infrastructure.</p>
+            <div class="artifact-meta"><span class="feature-label">Crypto + AI infra</span><span class="kicker">Crypto and AI infrastructure</span></div>
+            <svg viewBox="0 0 400 60" style="width:100%;height:60px;display:block" preserveAspectRatio="none" role="img" aria-label="Galaxy primer sample sparkline"><path d="M0,48 L33,44 L66,48 L100,40 L133,36 L166,42 L200,30 L233,34 L266,26 L300,22 L333,18 L366,20 L400,12 L400,60 L0,60 Z" fill="url(#sparkfill)"/><path d="M0,48 L33,44 L66,48 L100,40 L133,36 L166,42 L200,30 L233,34 L266,26 L300,22 L333,18 L366,20 L400,12" fill="none" stroke="var(--edge-deep)" stroke-width="1.75"/></svg>
+            <div class="scenarios"><div class="scenario"><div class="lab">Engine</div><div class="val" style="color:var(--edge-deep)">Helios</div></div><div class="scenario"><div class="lab">Frame</div><div class="val">Platform</div></div><div class="scenario"><div class="lab">Risk</div><div class="val" style="color:var(--rust)">Cycles</div></div></div>
+          </a>
+        </div>
         <div class="artifact-dots" aria-label="Featured primers"><button type="button" class="active" data-primer-dot="0" aria-label="Show Qualcomm primer"></button><button type="button" data-primer-dot="1" aria-label="Show Galaxy Digital primer"></button></div>
-      </a>
+      </div>
     </div>
     <div class="stats-row"><div class="stat"><div class="num">3</div><div class="lab">Core questions</div></div><div class="stat"><div class="num">2</div><div class="lab">Featured primers</div></div><div class="stat"><div class="num">Evidence</div><div class="lab">Before conviction</div></div><div class="stat"><div class="num">5–15 yr</div><div class="lab">Holding horizon</div></div></div>
   </div>
@@ -77,28 +92,24 @@
 
 <script>
 (function(){
-  const card=document.getElementById('featured-primer');
-  if(!card) return;
-  const primers=[
-    {href:'/research/qcom/',label:'Read the Qualcomm primer',count:'01 / 02',ticker:'QCOM',company:'Qualcomm Inc.',title:'The AI stock investors may be overlooking.',deck:'The old story is phones. The new story may be on-device AI.',feature:'Edge compute',category:'Semiconductors',fill:'M0,42 L33,46 L66,38 L100,30 L133,34 L166,28 L200,22 L233,30 L266,18 L300,12 L333,8 L366,16 L400,4 L400,60 L0,60 Z',line:'M0,42 L33,46 L66,38 L100,30 L133,34 L166,28 L200,22 L233,30 L266,18 L300,12 L333,8 L366,16 L400,4',chips:[['Thesis','Edge AI','edge'],['Question','Rerating',''],['Risk','Handsets','rust']]},
-    {href:'/research/galaxy/',label:'Read the Galaxy Digital primer',count:'02 / 02',ticker:'GLXY',company:'Galaxy Digital',title:'Crypto and AI infrastructure in one messy platform bet.',deck:'Galaxy may be more than crypto beta: institutional digital-asset rails, tokenization optionality, and Helios AI/data-center infrastructure.',feature:'Crypto + AI infra',category:'Crypto and AI infrastructure',fill:'M0,48 L33,44 L66,48 L100,40 L133,36 L166,42 L200,30 L233,34 L266,26 L300,22 L333,18 L366,20 L400,12 L400,60 L0,60 Z',line:'M0,48 L33,44 L66,48 L100,40 L133,36 L166,42 L200,30 L233,34 L266,26 L300,22 L333,18 L366,20 L400,12',chips:[['Engine','Helios','edge'],['Frame','Platform',''],['Risk','Cycles','rust']]}
-  ];
-  const $=sel=>card.querySelector(sel);
-  const dots=[...card.querySelectorAll('[data-primer-dot]')];
-  let index=0,timer=null,paused=false;
-  function text(sel,value){const el=$(sel); if(el) el.textContent=value;}
-  function setPath(sel,value){const el=$(sel); if(el) el.setAttribute('d',value);}
+  const carousel=document.getElementById('featured-primer');
+  if(!carousel) return;
+  const track=carousel.querySelector('[data-primer-track]');
+  const dots=[...carousel.querySelectorAll('[data-primer-dot]')];
+  let index=0, paused=false;
   function render(next){
     index=next;
-    const p=primers[index];
-    card.href=p.href; card.setAttribute('aria-label',p.label);
-    text('[data-primer-count]',p.count); text('[data-primer-ticker]',p.ticker); text('[data-primer-company]',p.company); text('[data-primer-title]',p.title); text('[data-primer-deck]',p.deck); text('[data-primer-label]',p.feature); text('[data-primer-category]',p.category);
-    setPath('[data-primer-fill]',p.fill); setPath('[data-primer-line]',p.line);
-    p.chips.forEach((chip,i)=>{text(`[data-primer-chip-${i+1}-label]`,chip[0]); const val=$(`[data-primer-chip-${i+1}-value]`); if(val){val.textContent=chip[1]; val.style.color=chip[2]==='edge'?'var(--edge-deep)':chip[2]==='rust'?'var(--rust)':'';}});
-    dots.forEach((d,i)=>d.classList.toggle('active',i===index));
+    track.style.transform=`translateX(-${index * 100}%)`;
+    dots.forEach((dot,i)=>dot.classList.toggle('active',i===index));
   }
-  function start(){ if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) return; timer=window.setInterval(()=>{ if(!paused) render((index+1)%primers.length); },7000); }
-  card.addEventListener('mouseenter',()=>paused=true); card.addEventListener('mouseleave',()=>paused=false); card.addEventListener('focusin',()=>paused=true); card.addEventListener('focusout',()=>paused=false);
+  function start(){
+    if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    window.setInterval(()=>{ if(!paused) render((index+1)%2); },7000);
+  }
+  carousel.addEventListener('mouseenter',()=>paused=true);
+  carousel.addEventListener('mouseleave',()=>paused=false);
+  carousel.addEventListener('focusin',()=>paused=true);
+  carousel.addEventListener('focusout',()=>paused=false);
   dots.forEach(dot=>dot.addEventListener('click',event=>{event.preventDefault(); render(Number(dot.dataset.primerDot)||0);}));
   start();
 })();
