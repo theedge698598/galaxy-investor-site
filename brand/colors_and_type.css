@@ -82,6 +82,15 @@ img, svg { max-width: 100%; }
 .publish-date { display: inline-flex; float: right; align-items: center; gap: 8px; margin-top: -2px; padding: 8px 10px; border: 1px solid var(--rule); background: var(--paper-2); color: var(--muted); font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; }
 .publish-date strong { color: var(--ink); font-weight: 600; }
 .publish-date .sep { color: var(--rule); }
+.research-performance { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 0; margin-top: 30px; border: 1px solid var(--ink); background: var(--paper); }
+.research-performance div { padding: 16px 18px; border-right: 1px solid var(--rule); }
+.research-performance div:last-child { border-right: none; }
+.research-performance .label { display: block; font-family: var(--mono); font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.research-performance .value { display: block; margin-top: 8px; font-family: var(--mono); font-size: 20px; font-weight: 600; font-variant-numeric: tabular-nums; color: var(--ink); }
+.research-performance .up { background: var(--edge-soft); }
+.research-performance .up .value { color: var(--edge-deep); }
+.research-performance .down { background: var(--rust-soft); }
+.research-performance .down .value { color: var(--rust); }
 .kicker strong { color: var(--edge-deep); font-weight: 600; }
 h1, h2, .display { font-family: var(--serif); font-weight: 400; font-variation-settings: "opsz" 144; letter-spacing: -0.035em; }
 h1 { font-size: clamp(58px, 8vw, 112px); line-height: .94; margin: 0; }
@@ -145,6 +154,7 @@ p { margin: 0; }
 
 @media (max-width: 900px) {
   .publish-date { float: none; margin: 0 0 18px; }
+  .research-performance { grid-template-columns: 1fr 1fr; }
   .shell, .nav-in { padding-left: 20px; padding-right: 20px; }
   .nav nav a:not(.nav-cta) { display: none; }
   .brand-logo { height: 58px; }
@@ -158,6 +168,9 @@ p { margin: 0; }
   .site-footer-bottom { flex-direction: column; margin-top: 40px; }
 }
 @media (max-width: 520px) {
+  .research-performance { grid-template-columns: 1fr; }
+  .research-performance div { border-right: none; border-bottom: 1px solid var(--rule); }
+  .research-performance div:last-child { border-bottom: none; }
   .nav-in { padding-top: 14px; padding-bottom: 14px; }
   .brand-logo { height: 64px; }
   .nav .nav-cta { display: none; }
