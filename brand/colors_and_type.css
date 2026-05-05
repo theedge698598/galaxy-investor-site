@@ -79,6 +79,9 @@ img, svg { max-width: 100%; }
 .nav-menu-panel a:hover { background: var(--edge-soft); color: var(--ink); }
 
 .kicker, .mono-label { font-family: var(--mono); font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+.publish-date { display: inline-flex; float: right; align-items: center; gap: 8px; margin-top: -2px; padding: 8px 10px; border: 1px solid var(--rule); background: var(--paper-2); color: var(--muted); font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; }
+.publish-date strong { color: var(--ink); font-weight: 600; }
+.publish-date .sep { color: var(--rule); }
 .kicker strong { color: var(--edge-deep); font-weight: 600; }
 h1, h2, .display { font-family: var(--serif); font-weight: 400; font-variation-settings: "opsz" 144; letter-spacing: -0.035em; }
 h1 { font-size: clamp(58px, 8vw, 112px); line-height: .94; margin: 0; }
@@ -141,6 +144,7 @@ p { margin: 0; }
 .site-footer-bottom { margin-top: 52px; padding-top: 22px; border-top: 1px solid var(--rule); display: flex; justify-content: space-between; gap: 24px; color: var(--muted); font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
 
 @media (max-width: 900px) {
+  .publish-date { float: none; margin: 0 0 18px; }
   .shell, .nav-in { padding-left: 20px; padding-right: 20px; }
   .nav nav a:not(.nav-cta) { display: none; }
   .brand-logo { height: 58px; }
