@@ -27,10 +27,22 @@
   .risk-item{border:1px solid var(--rule);background:var(--paper-2);padding:18px}
   .risk-item h3{font-size:24px;margin-bottom:8px}
   .risk-item p{font-size:17px;line-height:1.55;margin-top:0}
+
+  .quality-ladder{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;margin:30px 0;border:1px solid var(--ink);background:var(--paper)}
+  .quality-step{padding:18px;border-right:1px solid var(--rule);position:relative;min-height:178px}
+  .quality-step:last-child{border-right:none}
+  .quality-step .num{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;background:var(--ink);color:var(--paper);font-family:var(--mono);font-size:11px;margin-bottom:18px}
+  .quality-step h3{font-size:24px;margin-bottom:10px}
+  .quality-step p{font-size:15px;line-height:1.45;margin-top:0}
+  .quality-step .tag{display:inline-flex;margin-top:14px;padding:7px 9px;background:var(--paper-2);border:1px solid var(--rule);font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+  .quality-step.cyclical{background:var(--rust-soft)}
+  .quality-step.helios{background:var(--edge-soft)}
+  .quality-step.helios .tag{background:var(--edge);border-color:var(--edge);color:var(--ink)}
+  .quality-caption{margin-top:12px!important;font-family:var(--mono);font-size:11px!important;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)!important;line-height:1.5!important}
   .bottom-line{background:var(--ink);color:var(--paper);padding:42px;border:1px solid var(--ink);margin-top:18px}
   .bottom-line h2,.bottom-line p{color:var(--paper)}
   .bottom-line p{color:rgba(244,241,236,.82)}
-  @media(max-width:900px){.report-hero{padding-left:20px;padding-right:20px}.report-body{grid-template-columns:1fr;padding-left:20px;padding-right:20px;gap:36px}.report-toc{position:relative;top:auto}.report-section p{font-size:18px}.bottom-line{padding:28px}}
+  @media(max-width:900px){.report-hero{padding-left:20px;padding-right:20px}.report-body{grid-template-columns:1fr;padding-left:20px;padding-right:20px;gap:36px}.report-toc{position:relative;top:auto}.report-section p{font-size:18px}.quality-ladder{grid-template-columns:1fr}.quality-step{border-right:none;border-bottom:1px solid var(--rule);min-height:auto}.quality-step:last-child{border-bottom:none}.bottom-line{padding:28px}}
 </style>
   <!-- Privacy-friendly analytics by Plausible -->
   <script async src="https://plausible.io/js/pa-iTEXzlGjKllwh1ie5Ky-f.js"></script>
@@ -70,6 +82,14 @@
       <p>The third piece is staking, treasury, and institutional services. These are the bridges that make digital assets more usable for serious capital. The more institutions enter crypto, the more they need trusted operators that understand custody, yield, execution, and risk.</p>
       <p>The fourth piece is tokenization. This is the idea that stocks, bonds, funds, loans, and other real world assets may eventually move onto blockchain rails. If that happens, companies with institutional trust and market plumbing could become important control points.</p>
       <p>The fifth piece is Helios. This is the part that changes the story.</p>
+      <div class="quality-ladder" aria-label="Galaxy revenue quality ladder">
+        <div class="quality-step cyclical"><span class="num">01</span><h3>Markets</h3><p>Trading, lending, and execution for institutions moving through digital assets.</p><span class="tag">Most cyclical</span></div>
+        <div class="quality-step"><span class="num">02</span><h3>Institutional services</h3><p>Staking, treasury, custody, and yield rails that can become repeat usage.</p><span class="tag">Trust layer</span></div>
+        <div class="quality-step"><span class="num">03</span><h3>Asset management</h3><p>Fee products and managed exposure that improve if assets stay and compound.</p><span class="tag">Fee potential</span></div>
+        <div class="quality-step"><span class="num">04</span><h3>Tokenization</h3><p>Long term option on real world assets moving onto blockchain rails.</p><span class="tag">Future option</span></div>
+        <div class="quality-step helios"><span class="num">05</span><h3>Helios</h3><p>AI infrastructure, power, land, cooling, and contracted data center capacity.</p><span class="tag">Higher quality target</span></div>
+      </div>
+      <p class="quality-caption">The goal is not just more revenue. The goal is moving from volatile revenue toward revenue the market can trust.</p>
     </section>
 
     <section class="report-section" id="revenue">
@@ -88,7 +108,7 @@
       <p>In plain English, Helios provides the physical place where AI compute can run. That means land, power access, electrical systems, cooling, buildings, security, and reliable capacity for servers.</p>
       <p>This matters because AI is running into physical limits. The world can want more compute, but compute needs power, land, cooling, and time to build. Those things are not created instantly.</p>
       <p>CoreWeave is the key customer. Its commitment gives Helios credibility and gives Galaxy a path toward long term infrastructure revenue. If the site ramps well, investors may stop treating Helios like a side project inside a crypto company.</p>
-      <p>That is why Helios is the most important part of the rerating case. It gives Galaxy a chance to own something scarce in a market where demand is growing quickly.</p>
+      <p>That is why Helios is the most important part of the higher value case. It gives Galaxy a chance to own something scarce in a market where demand is growing quickly.</p>
       <p>The risk is that infrastructure is expensive and execution heavy. Galaxy has to deliver capacity, manage capital spending, handle project financing, and prove that the economics are attractive for shareholders.</p>
       <p>If Helios works, Galaxy becomes a very different company. If it disappoints, the stock likely falls back toward the old crypto proxy label.</p>
     </section>
