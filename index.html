@@ -120,7 +120,7 @@
   }
   function start(){
     if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    window.setInterval(()=>{ if(!paused) render((index+1)%2); },7000);
+    window.setInterval(()=>{ if(!paused) render((index+1)%dots.length); },7000);
   }
   carousel.addEventListener('mouseenter',()=>paused=true);
   carousel.addEventListener('mouseleave',()=>paused=false);
