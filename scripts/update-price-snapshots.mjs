@@ -17,7 +17,7 @@ const articles = [
     articlePath: 'research/qcom/index.html',
     priceSource: 'yahoo',
     yahooSymbol: 'QCOM',
-    homepageMetaRegex: /Stock primer · Semiconductors · Published May 2, 2026(?: · Updated [^·<]+)?(?: · [+-]\d+(?:\.\d+)?% since publish)?/g,
+    homepageMetaRegex: /Stock primer · Semiconductors · Published May 2, 2026(?: · Updated [^·<]+)?(?: ?· ?[+-]\d+(?:\.\d+)?% since publish)*/g,
     homepageMeta: ret => `Stock primer · Semiconductors · Published May 2, 2026 · Updated ${today} · ${ret} since publish`,
     featuredChipRegex: /<span class="chip" style="background:var\(--edge-soft\);color:var\(--edge-deep\)">[+-]\d+(?:\.\d+)?% since publish<\/span>/g,
   },
@@ -29,7 +29,7 @@ const articles = [
     articlePath: 'research/maple/index.html',
     priceSource: 'coingecko',
     coinGeckoId: 'syrup',
-    homepageMetaRegex: /Crypto primer · On[- ]chain lending · Published May 4, 2026(?: · Updated [^·<]+)?(?: · [+-]\d+(?:\.\d+)?% since publish)?/g,
+    homepageMetaRegex: /Crypto primer · On[- ]chain lending · Published May 4, 2026(?: · Updated [^·<]+)?(?: ?· ?[+-]\d+(?:\.\d+)?% since publish)*/g,
     homepageMeta: ret => `Crypto primer · On-chain lending · Published May 4, 2026 · Updated ${today} · ${ret} since publish`,
   },
   {
@@ -40,7 +40,7 @@ const articles = [
     articlePath: 'research/galaxy/index.html',
     priceSource: 'yahoo',
     yahooSymbol: 'GLXY',
-    homepageMetaRegex: /Crypto infrastructure · Helios · Published April 23, 2026(?: · Updated [^·<]+)?(?: · [+-]\d+(?:\.\d+)?% since publish)?/g,
+    homepageMetaRegex: /Crypto infrastructure · Helios · Published April 23, 2026(?: · Updated [^·<]+)?(?: ?· ?[+-]\d+(?:\.\d+)?% since publish)*/g,
     homepageMeta: ret => `Crypto infrastructure · Helios · Published April 23, 2026 · Updated ${today} · ${ret} since publish`,
   }
 ];
