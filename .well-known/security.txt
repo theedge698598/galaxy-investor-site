@@ -1,0 +1,4 @@
+Contact: https://x.com/Theedge698598
+Preferred-Languages: en
+Canonical: https://edgeinvesting.xyz/.well-known/security.txt
+Policy: https://edgeinvesting.xyz/
