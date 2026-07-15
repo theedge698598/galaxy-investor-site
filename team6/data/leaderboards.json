@@ -1,0 +1,1724 @@
+{
+  "Hits": {
+    "stat": "H",
+    "source": "stats",
+    "decimals": 0,
+    "minPA": 10,
+    "rows": [
+      {
+        "rank": 1,
+        "slug": "fredyan",
+        "name": "Fredyan",
+        "value": 11,
+        "PA": 24,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 2,
+        "slug": "vik",
+        "name": "Vik",
+        "value": 9,
+        "PA": 25,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 3,
+        "slug": "luis",
+        "name": "Luis",
+        "value": 9,
+        "PA": 13,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 4,
+        "slug": "wilmer",
+        "name": "Wilmer",
+        "value": 8,
+        "PA": 23,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 5,
+        "slug": "elvin",
+        "name": "Elvin",
+        "value": 7,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 6,
+        "slug": "blake",
+        "name": "Blake",
+        "value": 6,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 7,
+        "slug": "manuel",
+        "name": "Manuel",
+        "value": 5,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 8,
+        "slug": "jefferson",
+        "name": "Jefferson",
+        "value": 5,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 9,
+        "slug": "daniel",
+        "name": "Daniel",
+        "value": 4,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 10,
+        "slug": "luis-g",
+        "name": "Luis G.",
+        "value": 4,
+        "PA": 7,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 11,
+        "slug": "sean",
+        "name": "Sean",
+        "value": 2,
+        "PA": 14,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 12,
+        "slug": "conway",
+        "name": "Conway",
+        "value": 2,
+        "PA": 16,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 13,
+        "slug": "oxlac",
+        "name": "Oxlac",
+        "value": 1,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 14,
+        "slug": "jordan",
+        "name": "Jordan",
+        "value": 1,
+        "PA": 5,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 15,
+        "slug": "moises",
+        "name": "Moises",
+        "value": 0,
+        "PA": 4,
+        "qualified": false,
+        "smallSample": true
+      }
+    ]
+  },
+  "AVG": {
+    "stat": "AVG",
+    "source": "advanced",
+    "decimals": 3,
+    "rate": true,
+    "minPA": 10,
+    "rows": [
+      {
+        "rank": 1,
+        "slug": "luis",
+        "name": "Luis",
+        "value": 0.692,
+        "PA": 13,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 2,
+        "slug": "luis-g",
+        "name": "Luis G.",
+        "value": 0.571,
+        "PA": 7,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 3,
+        "slug": "jefferson",
+        "name": "Jefferson",
+        "value": 0.556,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 4,
+        "slug": "fredyan",
+        "name": "Fredyan",
+        "value": 0.524,
+        "PA": 24,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 5,
+        "slug": "elvin",
+        "name": "Elvin",
+        "value": 0.467,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 6,
+        "slug": "wilmer",
+        "name": "Wilmer",
+        "value": 0.421,
+        "PA": 23,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 7,
+        "slug": "vik",
+        "name": "Vik",
+        "value": 0.36,
+        "PA": 25,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 8,
+        "slug": "manuel",
+        "name": "Manuel",
+        "value": 0.357,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 9,
+        "slug": "blake",
+        "name": "Blake",
+        "value": 0.353,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 10,
+        "slug": "daniel",
+        "name": "Daniel",
+        "value": 0.267,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 11,
+        "slug": "jordan",
+        "name": "Jordan",
+        "value": 0.2,
+        "PA": 5,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 12,
+        "slug": "sean",
+        "name": "Sean",
+        "value": 0.154,
+        "PA": 14,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 13,
+        "slug": "conway",
+        "name": "Conway",
+        "value": 0.133,
+        "PA": 16,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 14,
+        "slug": "oxlac",
+        "name": "Oxlac",
+        "value": 0.1,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 15,
+        "slug": "moises",
+        "name": "Moises",
+        "value": 0,
+        "PA": 4,
+        "qualified": false,
+        "smallSample": true
+      }
+    ]
+  },
+  "OPS": {
+    "stat": "OPS",
+    "source": "advanced",
+    "decimals": 3,
+    "rate": true,
+    "minPA": 10,
+    "rows": [
+      {
+        "rank": 1,
+        "slug": "fredyan",
+        "name": "Fredyan",
+        "value": 1.679,
+        "PA": 24,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 2,
+        "slug": "elvin",
+        "name": "Elvin",
+        "value": 1.617,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 3,
+        "slug": "luis",
+        "name": "Luis",
+        "value": 1.538,
+        "PA": 13,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 4,
+        "slug": "jefferson",
+        "name": "Jefferson",
+        "value": 1.489,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 5,
+        "slug": "luis-g",
+        "name": "Luis G.",
+        "value": 1.143,
+        "PA": 7,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 6,
+        "slug": "wilmer",
+        "name": "Wilmer",
+        "value": 0.995,
+        "PA": 23,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 7,
+        "slug": "blake",
+        "name": "Blake",
+        "value": 0.862,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 8,
+        "slug": "vik",
+        "name": "Vik",
+        "value": 0.76,
+        "PA": 25,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 9,
+        "slug": "manuel",
+        "name": "Manuel",
+        "value": 0.69,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 10,
+        "slug": "sean",
+        "name": "Sean",
+        "value": 0.676,
+        "PA": 14,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 11,
+        "slug": "daniel",
+        "name": "Daniel",
+        "value": 0.6,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 12,
+        "slug": "jordan",
+        "name": "Jordan",
+        "value": 0.4,
+        "PA": 5,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 13,
+        "slug": "conway",
+        "name": "Conway",
+        "value": 0.321,
+        "PA": 16,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 14,
+        "slug": "oxlac",
+        "name": "Oxlac",
+        "value": 0.2,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 15,
+        "slug": "moises",
+        "name": "Moises",
+        "value": 0,
+        "PA": 4,
+        "qualified": false,
+        "smallSample": true
+      }
+    ]
+  },
+  "RBI": {
+    "stat": "RBI",
+    "source": "stats",
+    "decimals": 0,
+    "minPA": 10,
+    "rows": [
+      {
+        "rank": 1,
+        "slug": "fredyan",
+        "name": "Fredyan",
+        "value": 12,
+        "PA": 24,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 2,
+        "slug": "elvin",
+        "name": "Elvin",
+        "value": 8,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 3,
+        "slug": "wilmer",
+        "name": "Wilmer",
+        "value": 5,
+        "PA": 23,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 4,
+        "slug": "manuel",
+        "name": "Manuel",
+        "value": 4,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 5,
+        "slug": "luis",
+        "name": "Luis",
+        "value": 3,
+        "PA": 13,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 6,
+        "slug": "jefferson",
+        "name": "Jefferson",
+        "value": 3,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 7,
+        "slug": "sean",
+        "name": "Sean",
+        "value": 2,
+        "PA": 14,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 8,
+        "slug": "vik",
+        "name": "Vik",
+        "value": 2,
+        "PA": 25,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 9,
+        "slug": "luis-g",
+        "name": "Luis G.",
+        "value": 2,
+        "PA": 7,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 10,
+        "slug": "conway",
+        "name": "Conway",
+        "value": 1,
+        "PA": 16,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 11,
+        "slug": "daniel",
+        "name": "Daniel",
+        "value": 1,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 12,
+        "slug": "blake",
+        "name": "Blake",
+        "value": 0,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 13,
+        "slug": "oxlac",
+        "name": "Oxlac",
+        "value": 0,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 14,
+        "slug": "jordan",
+        "name": "Jordan",
+        "value": 0,
+        "PA": 5,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 15,
+        "slug": "moises",
+        "name": "Moises",
+        "value": 0,
+        "PA": 4,
+        "qualified": false,
+        "smallSample": true
+      }
+    ]
+  },
+  "Runs": {
+    "stat": "R",
+    "source": "stats",
+    "decimals": 0,
+    "minPA": 10,
+    "rows": [
+      {
+        "rank": 1,
+        "slug": "fredyan",
+        "name": "Fredyan",
+        "value": 9,
+        "PA": 24,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 2,
+        "slug": "elvin",
+        "name": "Elvin",
+        "value": 7,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 3,
+        "slug": "wilmer",
+        "name": "Wilmer",
+        "value": 6,
+        "PA": 23,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 4,
+        "slug": "manuel",
+        "name": "Manuel",
+        "value": 4,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 5,
+        "slug": "blake",
+        "name": "Blake",
+        "value": 3,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 6,
+        "slug": "daniel",
+        "name": "Daniel",
+        "value": 3,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 7,
+        "slug": "luis",
+        "name": "Luis",
+        "value": 3,
+        "PA": 13,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 8,
+        "slug": "vik",
+        "name": "Vik",
+        "value": 2,
+        "PA": 25,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 9,
+        "slug": "jefferson",
+        "name": "Jefferson",
+        "value": 2,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 10,
+        "slug": "luis-g",
+        "name": "Luis G.",
+        "value": 2,
+        "PA": 7,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 11,
+        "slug": "sean",
+        "name": "Sean",
+        "value": 1,
+        "PA": 14,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 12,
+        "slug": "conway",
+        "name": "Conway",
+        "value": 1,
+        "PA": 16,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 13,
+        "slug": "jordan",
+        "name": "Jordan",
+        "value": 1,
+        "PA": 5,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 14,
+        "slug": "oxlac",
+        "name": "Oxlac",
+        "value": 0,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 15,
+        "slug": "moises",
+        "name": "Moises",
+        "value": 0,
+        "PA": 4,
+        "qualified": false,
+        "smallSample": true
+      }
+    ]
+  },
+  "Walks": {
+    "stat": "BB",
+    "source": "stats",
+    "decimals": 0,
+    "minPA": 10,
+    "rows": [
+      {
+        "rank": 1,
+        "slug": "wilmer",
+        "name": "Wilmer",
+        "value": 4,
+        "PA": 23,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 2,
+        "slug": "elvin",
+        "name": "Elvin",
+        "value": 4,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 3,
+        "slug": "blake",
+        "name": "Blake",
+        "value": 3,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 4,
+        "slug": "fredyan",
+        "name": "Fredyan",
+        "value": 3,
+        "PA": 24,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 5,
+        "slug": "sean",
+        "name": "Sean",
+        "value": 1,
+        "PA": 14,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 6,
+        "slug": "conway",
+        "name": "Conway",
+        "value": 1,
+        "PA": 16,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 7,
+        "slug": "jefferson",
+        "name": "Jefferson",
+        "value": 1,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 8,
+        "slug": "vik",
+        "name": "Vik",
+        "value": 0,
+        "PA": 25,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 9,
+        "slug": "manuel",
+        "name": "Manuel",
+        "value": 0,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 10,
+        "slug": "oxlac",
+        "name": "Oxlac",
+        "value": 0,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 11,
+        "slug": "daniel",
+        "name": "Daniel",
+        "value": 0,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 12,
+        "slug": "luis",
+        "name": "Luis",
+        "value": 0,
+        "PA": 13,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 13,
+        "slug": "jordan",
+        "name": "Jordan",
+        "value": 0,
+        "PA": 5,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 14,
+        "slug": "moises",
+        "name": "Moises",
+        "value": 0,
+        "PA": 4,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 15,
+        "slug": "luis-g",
+        "name": "Luis G.",
+        "value": 0,
+        "PA": 7,
+        "qualified": false,
+        "smallSample": true
+      }
+    ]
+  },
+  "Doubles": {
+    "stat": "2B",
+    "source": "stats",
+    "decimals": 0,
+    "minPA": 10,
+    "rows": [
+      {
+        "rank": 1,
+        "slug": "elvin",
+        "name": "Elvin",
+        "value": 3,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 2,
+        "slug": "jefferson",
+        "name": "Jefferson",
+        "value": 3,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 3,
+        "slug": "luis",
+        "name": "Luis",
+        "value": 2,
+        "PA": 13,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 4,
+        "slug": "wilmer",
+        "name": "Wilmer",
+        "value": 1,
+        "PA": 23,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 5,
+        "slug": "blake",
+        "name": "Blake",
+        "value": 1,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 6,
+        "slug": "sean",
+        "name": "Sean",
+        "value": 1,
+        "PA": 14,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 7,
+        "slug": "vik",
+        "name": "Vik",
+        "value": 1,
+        "PA": 25,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 8,
+        "slug": "daniel",
+        "name": "Daniel",
+        "value": 1,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 9,
+        "slug": "fredyan",
+        "name": "Fredyan",
+        "value": 0,
+        "PA": 24,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 10,
+        "slug": "manuel",
+        "name": "Manuel",
+        "value": 0,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 11,
+        "slug": "conway",
+        "name": "Conway",
+        "value": 0,
+        "PA": 16,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 12,
+        "slug": "oxlac",
+        "name": "Oxlac",
+        "value": 0,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 13,
+        "slug": "jordan",
+        "name": "Jordan",
+        "value": 0,
+        "PA": 5,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 14,
+        "slug": "moises",
+        "name": "Moises",
+        "value": 0,
+        "PA": 4,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 15,
+        "slug": "luis-g",
+        "name": "Luis G.",
+        "value": 0,
+        "PA": 7,
+        "qualified": false,
+        "smallSample": true
+      }
+    ]
+  },
+  "Home Runs": {
+    "stat": "HR",
+    "source": "stats",
+    "decimals": 0,
+    "minPA": 10,
+    "rows": [
+      {
+        "rank": 1,
+        "slug": "fredyan",
+        "name": "Fredyan",
+        "value": 2,
+        "PA": 24,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 2,
+        "slug": "elvin",
+        "name": "Elvin",
+        "value": 2,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 3,
+        "slug": "sean",
+        "name": "Sean",
+        "value": 1,
+        "PA": 14,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 4,
+        "slug": "wilmer",
+        "name": "Wilmer",
+        "value": 0,
+        "PA": 23,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 5,
+        "slug": "blake",
+        "name": "Blake",
+        "value": 0,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 6,
+        "slug": "vik",
+        "name": "Vik",
+        "value": 0,
+        "PA": 25,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 7,
+        "slug": "manuel",
+        "name": "Manuel",
+        "value": 0,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 8,
+        "slug": "conway",
+        "name": "Conway",
+        "value": 0,
+        "PA": 16,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 9,
+        "slug": "oxlac",
+        "name": "Oxlac",
+        "value": 0,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 10,
+        "slug": "daniel",
+        "name": "Daniel",
+        "value": 0,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 11,
+        "slug": "luis",
+        "name": "Luis",
+        "value": 0,
+        "PA": 13,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 12,
+        "slug": "jordan",
+        "name": "Jordan",
+        "value": 0,
+        "PA": 5,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 13,
+        "slug": "jefferson",
+        "name": "Jefferson",
+        "value": 0,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 14,
+        "slug": "moises",
+        "name": "Moises",
+        "value": 0,
+        "PA": 4,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 15,
+        "slug": "luis-g",
+        "name": "Luis G.",
+        "value": 0,
+        "PA": 7,
+        "qualified": false,
+        "smallSample": true
+      }
+    ]
+  },
+  "Stolen Bases": {
+    "stat": "SB",
+    "source": "stats",
+    "decimals": 0,
+    "minPA": 10,
+    "rows": [
+      {
+        "rank": 1,
+        "slug": "wilmer",
+        "name": "Wilmer",
+        "value": 2,
+        "PA": 23,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 2,
+        "slug": "manuel",
+        "name": "Manuel",
+        "value": 2,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 3,
+        "slug": "luis",
+        "name": "Luis",
+        "value": 2,
+        "PA": 13,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 4,
+        "slug": "blake",
+        "name": "Blake",
+        "value": 1,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 5,
+        "slug": "vik",
+        "name": "Vik",
+        "value": 1,
+        "PA": 25,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 6,
+        "slug": "sean",
+        "name": "Sean",
+        "value": 0,
+        "PA": 14,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 7,
+        "slug": "fredyan",
+        "name": "Fredyan",
+        "value": 0,
+        "PA": 24,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 8,
+        "slug": "conway",
+        "name": "Conway",
+        "value": 0,
+        "PA": 16,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 9,
+        "slug": "oxlac",
+        "name": "Oxlac",
+        "value": 0,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 10,
+        "slug": "daniel",
+        "name": "Daniel",
+        "value": 0,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 11,
+        "slug": "jordan",
+        "name": "Jordan",
+        "value": 0,
+        "PA": 5,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 12,
+        "slug": "elvin",
+        "name": "Elvin",
+        "value": 0,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 13,
+        "slug": "jefferson",
+        "name": "Jefferson",
+        "value": 0,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 14,
+        "slug": "moises",
+        "name": "Moises",
+        "value": 0,
+        "PA": 4,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 15,
+        "slug": "luis-g",
+        "name": "Luis G.",
+        "value": 0,
+        "PA": 7,
+        "qualified": false,
+        "smallSample": true
+      }
+    ]
+  },
+  "OBP": {
+    "stat": "OBP",
+    "source": "advanced",
+    "decimals": 3,
+    "rate": true,
+    "minPA": 10,
+    "rows": [
+      {
+        "rank": 1,
+        "slug": "luis",
+        "name": "Luis",
+        "value": 0.692,
+        "PA": 13,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 2,
+        "slug": "jefferson",
+        "name": "Jefferson",
+        "value": 0.6,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 3,
+        "slug": "fredyan",
+        "name": "Fredyan",
+        "value": 0.583,
+        "PA": 24,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 4,
+        "slug": "luis-g",
+        "name": "Luis G.",
+        "value": 0.571,
+        "PA": 7,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 5,
+        "slug": "elvin",
+        "name": "Elvin",
+        "value": 0.55,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 6,
+        "slug": "wilmer",
+        "name": "Wilmer",
+        "value": 0.522,
+        "PA": 23,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 7,
+        "slug": "blake",
+        "name": "Blake",
+        "value": 0.45,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 8,
+        "slug": "vik",
+        "name": "Vik",
+        "value": 0.36,
+        "PA": 25,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 9,
+        "slug": "manuel",
+        "name": "Manuel",
+        "value": 0.333,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 10,
+        "slug": "daniel",
+        "name": "Daniel",
+        "value": 0.267,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 11,
+        "slug": "sean",
+        "name": "Sean",
+        "value": 0.214,
+        "PA": 14,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 12,
+        "slug": "jordan",
+        "name": "Jordan",
+        "value": 0.2,
+        "PA": 5,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 13,
+        "slug": "conway",
+        "name": "Conway",
+        "value": 0.188,
+        "PA": 16,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 14,
+        "slug": "oxlac",
+        "name": "Oxlac",
+        "value": 0.1,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 15,
+        "slug": "moises",
+        "name": "Moises",
+        "value": 0,
+        "PA": 4,
+        "qualified": false,
+        "smallSample": true
+      }
+    ]
+  },
+  "SLG": {
+    "stat": "SLG",
+    "source": "advanced",
+    "decimals": 3,
+    "rate": true,
+    "minPA": 10,
+    "rows": [
+      {
+        "rank": 1,
+        "slug": "fredyan",
+        "name": "Fredyan",
+        "value": 1.095,
+        "PA": 24,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 2,
+        "slug": "elvin",
+        "name": "Elvin",
+        "value": 1.067,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 3,
+        "slug": "jefferson",
+        "name": "Jefferson",
+        "value": 0.889,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 4,
+        "slug": "luis",
+        "name": "Luis",
+        "value": 0.846,
+        "PA": 13,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 5,
+        "slug": "luis-g",
+        "name": "Luis G.",
+        "value": 0.571,
+        "PA": 7,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 6,
+        "slug": "wilmer",
+        "name": "Wilmer",
+        "value": 0.474,
+        "PA": 23,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 7,
+        "slug": "sean",
+        "name": "Sean",
+        "value": 0.462,
+        "PA": 14,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 8,
+        "slug": "blake",
+        "name": "Blake",
+        "value": 0.412,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 9,
+        "slug": "vik",
+        "name": "Vik",
+        "value": 0.4,
+        "PA": 25,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 10,
+        "slug": "manuel",
+        "name": "Manuel",
+        "value": 0.357,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 11,
+        "slug": "daniel",
+        "name": "Daniel",
+        "value": 0.333,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 12,
+        "slug": "jordan",
+        "name": "Jordan",
+        "value": 0.2,
+        "PA": 5,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 13,
+        "slug": "conway",
+        "name": "Conway",
+        "value": 0.133,
+        "PA": 16,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 14,
+        "slug": "oxlac",
+        "name": "Oxlac",
+        "value": 0.1,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 15,
+        "slug": "moises",
+        "name": "Moises",
+        "value": 0,
+        "PA": 4,
+        "qualified": false,
+        "smallSample": true
+      }
+    ]
+  },
+  "Strikeout Rate": {
+    "stat": "K%",
+    "source": "advanced",
+    "decimals": 3,
+    "rate": true,
+    "direction": "asc",
+    "minPA": 10,
+    "rows": [
+      {
+        "rank": 1,
+        "slug": "luis",
+        "name": "Luis",
+        "value": 0,
+        "PA": 13,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 2,
+        "slug": "jefferson",
+        "name": "Jefferson",
+        "value": 0,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 3,
+        "slug": "moises",
+        "name": "Moises",
+        "value": 0,
+        "PA": 4,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 4,
+        "slug": "elvin",
+        "name": "Elvin",
+        "value": 0.05,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 5,
+        "slug": "sean",
+        "name": "Sean",
+        "value": 0.071,
+        "PA": 14,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 6,
+        "slug": "fredyan",
+        "name": "Fredyan",
+        "value": 0.083,
+        "PA": 24,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 7,
+        "slug": "blake",
+        "name": "Blake",
+        "value": 0.1,
+        "PA": 20,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 8,
+        "slug": "manuel",
+        "name": "Manuel",
+        "value": 0.133,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 9,
+        "slug": "vik",
+        "name": "Vik",
+        "value": 0.16,
+        "PA": 25,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 10,
+        "slug": "oxlac",
+        "name": "Oxlac",
+        "value": 0.2,
+        "PA": 10,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 11,
+        "slug": "jordan",
+        "name": "Jordan",
+        "value": 0.2,
+        "PA": 5,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 12,
+        "slug": "wilmer",
+        "name": "Wilmer",
+        "value": 0.217,
+        "PA": 23,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 13,
+        "slug": "conway",
+        "name": "Conway",
+        "value": 0.25,
+        "PA": 16,
+        "qualified": true,
+        "smallSample": false
+      },
+      {
+        "rank": 14,
+        "slug": "luis-g",
+        "name": "Luis G.",
+        "value": 0.28600000000000003,
+        "PA": 7,
+        "qualified": false,
+        "smallSample": true
+      },
+      {
+        "rank": 15,
+        "slug": "daniel",
+        "name": "Daniel",
+        "value": 0.4,
+        "PA": 15,
+        "qualified": true,
+        "smallSample": false
+      }
+    ]
+  }
+}

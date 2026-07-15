@@ -1,0 +1,5575 @@
+[
+  {
+    "id": "game-1",
+    "name": "Game 1",
+    "gameNumber": 1,
+    "played": true,
+    "date": "May 11, 2026",
+    "opponent": "Storm",
+    "location": "",
+    "teamRuns": 5,
+    "opponentRuns": 8,
+    "result": "L",
+    "notes": "Lost 8-5",
+    "teamTotals": {
+      "G": 10,
+      "PA": 32,
+      "AB": 29,
+      "H": 7,
+      "1B": 6,
+      "2B": 1,
+      "3B": 0,
+      "HR": 0,
+      "BB": 3,
+      "K": 0,
+      "RBI": 5,
+      "R": 5,
+      "SB": 0,
+      "TB": 8
+    },
+    "players": [
+      {
+        "name": "Wilmer",
+        "slug": "wilmer",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 1,
+          "R": 0,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0.3333333333333333,
+          "OBP": 0.3333333333333333,
+          "SLG": 0.3333333333333333,
+          "OPS": 0.6666666666666666,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Blake",
+        "slug": "blake",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0.3333333333333333,
+          "OBP": 0.3333333333333333,
+          "SLG": 0.3333333333333333,
+          "OPS": 0.6666666666666666,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Sean",
+        "slug": "sean",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Fredyan",
+        "slug": "fredyan",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 3,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 1,
+          "K": 0,
+          "RBI": 1,
+          "R": 1,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0.3333333333333333,
+          "OBP": 0.5,
+          "SLG": 0.3333333333333333,
+          "OPS": 0.8333333333333333,
+          "ISO": 0,
+          "BB%": 0.25,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Vik",
+        "slug": "vik",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 1,
+          "R": 1,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0.3333333333333333,
+          "OBP": 0.3333333333333333,
+          "SLG": 0.3333333333333333,
+          "OPS": 0.6666666666666666,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Manuel",
+        "slug": "manuel",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 1,
+          "R": 1,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0.3333333333333333,
+          "OBP": 0.3333333333333333,
+          "SLG": 0.3333333333333333,
+          "OPS": 0.6666666666666666,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Conway",
+        "slug": "conway",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 3,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 1,
+          "K": 0,
+          "RBI": 0,
+          "R": 1,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0.25,
+          "SLG": 0,
+          "OPS": 0.25,
+          "ISO": 0,
+          "BB%": 0.25,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Oxlac",
+        "slug": "oxlac",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Daniel",
+        "slug": "daniel",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Luis",
+        "slug": "luis",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 2,
+          "1B": 1,
+          "2B": 1,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 1,
+          "R": 1,
+          "SB": 0,
+          "TB": 3
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0.6666666666666666,
+          "OBP": 0.6666666666666666,
+          "SLG": 1,
+          "OPS": 1.6666666666666665,
+          "ISO": 0.33333333333333337,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jordan",
+        "slug": "jordan",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Elvin",
+        "slug": "elvin",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 2,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 1,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0.3333333333333333,
+          "SLG": 0,
+          "OPS": 0.3333333333333333,
+          "ISO": 0,
+          "BB%": 0.3333333333333333,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jefferson",
+        "slug": "jefferson",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Moises",
+        "slug": "moises",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Luis G.",
+        "slug": "luis-g",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      }
+    ],
+    "advanced": {
+      "AVG": 0.2413793103448276,
+      "OBP": 0.3125,
+      "SLG": 0.27586206896551724,
+      "OPS": 0.5883620689655172,
+      "ISO": 0.03448275862068964,
+      "BB%": 0.09375,
+      "K%": 0
+    },
+    "badges": {
+      "mostHits": [
+        {
+          "name": "Luis",
+          "slug": "luis",
+          "value": 2
+        },
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 1
+        },
+        {
+          "name": "Blake",
+          "slug": "blake",
+          "value": 1
+        }
+      ],
+      "mostRBI": [
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 1
+        },
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 1
+        },
+        {
+          "name": "Vik",
+          "slug": "vik",
+          "value": 1
+        }
+      ],
+      "mostRuns": [
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 1
+        },
+        {
+          "name": "Vik",
+          "slug": "vik",
+          "value": 1
+        },
+        {
+          "name": "Manuel",
+          "slug": "manuel",
+          "value": 1
+        }
+      ],
+      "bigBat": [
+        {
+          "name": "Luis",
+          "slug": "luis",
+          "value": 3
+        },
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 1
+        },
+        {
+          "name": "Blake",
+          "slug": "blake",
+          "value": 1
+        }
+      ],
+      "walkMachine": [
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 1
+        },
+        {
+          "name": "Conway",
+          "slug": "conway",
+          "value": 1
+        },
+        {
+          "name": "Elvin",
+          "slug": "elvin",
+          "value": 1
+        }
+      ],
+      "extraBaseHit": [
+        {
+          "name": "Luis",
+          "slug": "luis",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "game-2",
+    "name": "Game 2",
+    "gameNumber": 2,
+    "played": true,
+    "date": "May 25, 2026",
+    "opponent": "UCE",
+    "location": "",
+    "teamRuns": 5,
+    "opponentRuns": 6,
+    "result": "L",
+    "notes": "Lost 6-5",
+    "teamTotals": {
+      "G": 10,
+      "PA": 32,
+      "AB": 31,
+      "H": 8,
+      "1B": 6,
+      "2B": 2,
+      "3B": 0,
+      "HR": 0,
+      "BB": 1,
+      "K": 0,
+      "RBI": 5,
+      "R": 5,
+      "SB": 0,
+      "TB": 10
+    },
+    "players": [
+      {
+        "name": "Wilmer",
+        "slug": "wilmer",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 1,
+          "R": 1,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0.3333333333333333,
+          "OBP": 0.3333333333333333,
+          "SLG": 0.3333333333333333,
+          "OPS": 0.6666666666666666,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Blake",
+        "slug": "blake",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 2,
+          "1B": 2,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 1,
+          "SB": 0,
+          "TB": 2
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0.6666666666666666,
+          "OBP": 0.6666666666666666,
+          "SLG": 0.6666666666666666,
+          "OPS": 1.3333333333333333,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Sean",
+        "slug": "sean",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 3,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 1,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0.25,
+          "SLG": 0,
+          "OPS": 0.25,
+          "ISO": 0,
+          "BB%": 0.25,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Fredyan",
+        "slug": "fredyan",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Vik",
+        "slug": "vik",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 1,
+          "R": 0,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0.3333333333333333,
+          "OBP": 0.3333333333333333,
+          "SLG": 0.3333333333333333,
+          "OPS": 0.6666666666666666,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Manuel",
+        "slug": "manuel",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 1,
+          "R": 1,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0.3333333333333333,
+          "OBP": 0.3333333333333333,
+          "SLG": 0.3333333333333333,
+          "OPS": 0.6666666666666666,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Conway",
+        "slug": "conway",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Oxlac",
+        "slug": "oxlac",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Daniel",
+        "slug": "daniel",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Luis",
+        "slug": "luis",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 4,
+          "H": 2,
+          "1B": 1,
+          "2B": 1,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 1,
+          "R": 1,
+          "SB": 0,
+          "TB": 3
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0.5,
+          "OBP": 0.5,
+          "SLG": 0.75,
+          "OPS": 1.25,
+          "ISO": 0.25,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jordan",
+        "slug": "jordan",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Elvin",
+        "slug": "elvin",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 1,
+          "1B": 0,
+          "2B": 1,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 1,
+          "R": 1,
+          "SB": 0,
+          "TB": 2
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0.3333333333333333,
+          "OBP": 0.3333333333333333,
+          "SLG": 0.6666666666666666,
+          "OPS": 1,
+          "ISO": 0.3333333333333333,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jefferson",
+        "slug": "jefferson",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Moises",
+        "slug": "moises",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Luis G.",
+        "slug": "luis-g",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      }
+    ],
+    "advanced": {
+      "AVG": 0.25806451612903225,
+      "OBP": 0.28125,
+      "SLG": 0.3225806451612903,
+      "OPS": 0.6038306451612903,
+      "ISO": 0.06451612903225806,
+      "BB%": 0.03125,
+      "K%": 0
+    },
+    "badges": {
+      "mostHits": [
+        {
+          "name": "Blake",
+          "slug": "blake",
+          "value": 2
+        },
+        {
+          "name": "Luis",
+          "slug": "luis",
+          "value": 2
+        },
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 1
+        }
+      ],
+      "mostRBI": [
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 1
+        },
+        {
+          "name": "Vik",
+          "slug": "vik",
+          "value": 1
+        },
+        {
+          "name": "Manuel",
+          "slug": "manuel",
+          "value": 1
+        }
+      ],
+      "mostRuns": [
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 1
+        },
+        {
+          "name": "Blake",
+          "slug": "blake",
+          "value": 1
+        },
+        {
+          "name": "Manuel",
+          "slug": "manuel",
+          "value": 1
+        }
+      ],
+      "bigBat": [
+        {
+          "name": "Luis",
+          "slug": "luis",
+          "value": 3
+        },
+        {
+          "name": "Blake",
+          "slug": "blake",
+          "value": 2
+        },
+        {
+          "name": "Elvin",
+          "slug": "elvin",
+          "value": 2
+        }
+      ],
+      "walkMachine": [
+        {
+          "name": "Sean",
+          "slug": "sean",
+          "value": 1
+        }
+      ],
+      "extraBaseHit": [
+        {
+          "name": "Luis",
+          "slug": "luis",
+          "value": 1
+        },
+        {
+          "name": "Elvin",
+          "slug": "elvin",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "game-3",
+    "name": "Game 3",
+    "gameNumber": 3,
+    "played": true,
+    "date": "",
+    "opponent": "TBD",
+    "location": "",
+    "teamRuns": 1,
+    "opponentRuns": 9,
+    "result": "L",
+    "notes": "Lost 9-1",
+    "teamTotals": {
+      "G": 9,
+      "PA": 25,
+      "AB": 23,
+      "H": 6,
+      "1B": 5,
+      "2B": 1,
+      "3B": 0,
+      "HR": 0,
+      "BB": 2,
+      "K": 9,
+      "RBI": 0,
+      "R": 1,
+      "SB": 4,
+      "TB": 7
+    },
+    "players": [
+      {
+        "name": "Wilmer",
+        "slug": "wilmer",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 2,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "K, 1B, K",
+        "advanced": {
+          "AVG": 0.3333333333333333,
+          "OBP": 0.3333333333333333,
+          "SLG": 0.3333333333333333,
+          "OPS": 0.6666666666666666,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0.6666666666666666
+        }
+      },
+      {
+        "name": "Blake",
+        "slug": "blake",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 2,
+          "1B": 2,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 1,
+          "TB": 2
+        },
+        "notes": "1B, Out, 1B",
+        "advanced": {
+          "AVG": 0.6666666666666666,
+          "OBP": 0.6666666666666666,
+          "SLG": 0.6666666666666666,
+          "OPS": 1.3333333333333333,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Sean",
+        "slug": "sean",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 1,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "Out, K, Out",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0.3333333333333333
+        }
+      },
+      {
+        "name": "Fredyan",
+        "slug": "fredyan",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 1,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 2,
+          "K": 1,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "BB, K, BB",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0.6666666666666666,
+          "SLG": 0,
+          "OPS": 0.6666666666666666,
+          "ISO": 0,
+          "BB%": 0.6666666666666666,
+          "K%": 0.3333333333333333
+        }
+      },
+      {
+        "name": "Vik",
+        "slug": "vik",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 1,
+          "1B": 0,
+          "2B": 1,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 1,
+          "TB": 2
+        },
+        "notes": "Out, 2B, Out",
+        "advanced": {
+          "AVG": 0.3333333333333333,
+          "OBP": 0.3333333333333333,
+          "SLG": 0.6666666666666666,
+          "OPS": 1,
+          "ISO": 0.3333333333333333,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Manuel",
+        "slug": "manuel",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 1,
+          "RBI": 0,
+          "R": 1,
+          "SB": 2,
+          "TB": 1
+        },
+        "notes": "1B, Out, K; stole home",
+        "advanced": {
+          "AVG": 0.3333333333333333,
+          "OBP": 0.3333333333333333,
+          "SLG": 0.3333333333333333,
+          "OPS": 0.6666666666666666,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0.3333333333333333
+        }
+      },
+      {
+        "name": "Conway",
+        "slug": "conway",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 2,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "K, Out, K",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0.6666666666666666
+        }
+      },
+      {
+        "name": "Oxlac",
+        "slug": "oxlac",
+        "stats": {
+          "G": 1,
+          "PA": 2,
+          "AB": 2,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 1,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "K, 1B",
+        "advanced": {
+          "AVG": 0.5,
+          "OBP": 0.5,
+          "SLG": 0.5,
+          "OPS": 1,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0.5
+        }
+      },
+      {
+        "name": "Daniel",
+        "slug": "daniel",
+        "stats": {
+          "G": 1,
+          "PA": 2,
+          "AB": 2,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 1,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "K, Out",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0.5
+        }
+      },
+      {
+        "name": "Luis",
+        "slug": "luis",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jordan",
+        "slug": "jordan",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Elvin",
+        "slug": "elvin",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jefferson",
+        "slug": "jefferson",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Moises",
+        "slug": "moises",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Luis G.",
+        "slug": "luis-g",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      }
+    ],
+    "advanced": {
+      "AVG": 0.2608695652173913,
+      "OBP": 0.32,
+      "SLG": 0.30434782608695654,
+      "OPS": 0.6243478260869566,
+      "ISO": 0.043478260869565244,
+      "BB%": 0.08,
+      "K%": 0.36
+    },
+    "badges": {
+      "mostHits": [
+        {
+          "name": "Blake",
+          "slug": "blake",
+          "value": 2
+        },
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 1
+        },
+        {
+          "name": "Vik",
+          "slug": "vik",
+          "value": 1
+        }
+      ],
+      "mostRBI": [],
+      "mostRuns": [
+        {
+          "name": "Manuel",
+          "slug": "manuel",
+          "value": 1
+        }
+      ],
+      "bigBat": [
+        {
+          "name": "Blake",
+          "slug": "blake",
+          "value": 2
+        },
+        {
+          "name": "Vik",
+          "slug": "vik",
+          "value": 2
+        },
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 1
+        }
+      ],
+      "walkMachine": [
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 2
+        }
+      ],
+      "extraBaseHit": [
+        {
+          "name": "Vik",
+          "slug": "vik",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "game-4",
+    "name": "Game 4",
+    "gameNumber": 4,
+    "played": true,
+    "date": "",
+    "opponent": "TBD",
+    "location": "",
+    "teamRuns": 5,
+    "opponentRuns": 15,
+    "result": "L",
+    "notes": "Lost 15-5",
+    "teamTotals": {
+      "G": 11,
+      "PA": 27,
+      "AB": 26,
+      "H": 10,
+      "1B": 8,
+      "2B": 1,
+      "3B": 0,
+      "HR": 1,
+      "BB": 1,
+      "K": 7,
+      "RBI": 5,
+      "R": 5,
+      "SB": 3,
+      "TB": 14
+    },
+    "players": [
+      {
+        "name": "Wilmer",
+        "slug": "wilmer",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 2,
+          "H": 2,
+          "1B": 2,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 1,
+          "K": 0,
+          "RBI": 1,
+          "R": 1,
+          "SB": 1,
+          "TB": 2
+        },
+        "notes": "BB, 1B, 1B; 1 SB",
+        "advanced": {
+          "AVG": 1,
+          "OBP": 1,
+          "SLG": 1,
+          "OPS": 2,
+          "ISO": 0,
+          "BB%": 0.3333333333333333,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Blake",
+        "slug": "blake",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "0-for-3",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Sean",
+        "slug": "sean",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Fredyan",
+        "slug": "fredyan",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 2,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 1,
+          "BB": 0,
+          "K": 0,
+          "RBI": 2,
+          "R": 1,
+          "SB": 0,
+          "TB": 5
+        },
+        "notes": "HR, 1B, Out",
+        "advanced": {
+          "AVG": 0.6666666666666666,
+          "OBP": 0.6666666666666666,
+          "SLG": 1.6666666666666667,
+          "OPS": 2.3333333333333335,
+          "ISO": 1,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Vik",
+        "slug": "vik",
+        "stats": {
+          "G": 1,
+          "PA": 2,
+          "AB": 2,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 1,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "Out, K",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0.5
+        }
+      },
+      {
+        "name": "Manuel",
+        "slug": "manuel",
+        "stats": {
+          "G": 1,
+          "PA": 2,
+          "AB": 2,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 1,
+          "R": 0,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "1B, Out; 1 RBI",
+        "advanced": {
+          "AVG": 0.5,
+          "OBP": 0.5,
+          "SLG": 0.5,
+          "OPS": 1,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Conway",
+        "slug": "conway",
+        "stats": {
+          "G": 1,
+          "PA": 2,
+          "AB": 2,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 2,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "K, K",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 1
+        }
+      },
+      {
+        "name": "Oxlac",
+        "slug": "oxlac",
+        "stats": {
+          "G": 1,
+          "PA": 2,
+          "AB": 2,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 1,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "K, Out",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0.5
+        }
+      },
+      {
+        "name": "Daniel",
+        "slug": "daniel",
+        "stats": {
+          "G": 1,
+          "PA": 2,
+          "AB": 2,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 1,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "K, Out",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0.5
+        }
+      },
+      {
+        "name": "Luis",
+        "slug": "luis",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 3,
+          "1B": 3,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 1,
+          "R": 1,
+          "SB": 2,
+          "TB": 3
+        },
+        "notes": "3 singles; 2 SB",
+        "advanced": {
+          "AVG": 1,
+          "OBP": 1,
+          "SLG": 1,
+          "OPS": 2,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jordan",
+        "slug": "jordan",
+        "stats": {
+          "G": 1,
+          "PA": 2,
+          "AB": 2,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 1,
+          "RBI": 0,
+          "R": 1,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "K, 1B; run",
+        "advanced": {
+          "AVG": 0.5,
+          "OBP": 0.5,
+          "SLG": 0.5,
+          "OPS": 1,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0.5
+        }
+      },
+      {
+        "name": "Elvin",
+        "slug": "elvin",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 1,
+          "1B": 0,
+          "2B": 1,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 1,
+          "RBI": 0,
+          "R": 1,
+          "SB": 0,
+          "TB": 2
+        },
+        "notes": "2B, K, Out; run",
+        "advanced": {
+          "AVG": 0.3333333333333333,
+          "OBP": 0.3333333333333333,
+          "SLG": 0.6666666666666666,
+          "OPS": 1,
+          "ISO": 0.3333333333333333,
+          "BB%": 0,
+          "K%": 0.3333333333333333
+        }
+      },
+      {
+        "name": "Jefferson",
+        "slug": "jefferson",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Moises",
+        "slug": "moises",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Luis G.",
+        "slug": "luis-g",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      }
+    ],
+    "advanced": {
+      "AVG": 0.38461538461538464,
+      "OBP": 0.4074074074074074,
+      "SLG": 0.5384615384615384,
+      "OPS": 0.9458689458689458,
+      "ISO": 0.1538461538461538,
+      "BB%": 0.037037037037037035,
+      "K%": 0.25925925925925924
+    },
+    "badges": {
+      "mostHits": [
+        {
+          "name": "Luis",
+          "slug": "luis",
+          "value": 3
+        },
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 2
+        },
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 2
+        }
+      ],
+      "mostRBI": [
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 2
+        },
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 1
+        },
+        {
+          "name": "Manuel",
+          "slug": "manuel",
+          "value": 1
+        }
+      ],
+      "mostRuns": [
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 1
+        },
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 1
+        },
+        {
+          "name": "Luis",
+          "slug": "luis",
+          "value": 1
+        }
+      ],
+      "bigBat": [
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 5
+        },
+        {
+          "name": "Luis",
+          "slug": "luis",
+          "value": 3
+        },
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 2
+        }
+      ],
+      "walkMachine": [
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 1
+        }
+      ],
+      "extraBaseHit": [
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 1
+        },
+        {
+          "name": "Elvin",
+          "slug": "elvin",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "game-5",
+    "name": "Game 5",
+    "gameNumber": 5,
+    "played": true,
+    "date": "06/22/26",
+    "opponent": "Storm",
+    "location": "",
+    "teamRuns": 10,
+    "opponentRuns": 5,
+    "result": "W",
+    "notes": "Won 10-5",
+    "teamTotals": {
+      "G": 9,
+      "PA": 38,
+      "AB": 33,
+      "H": 14,
+      "1B": 10,
+      "2B": 2,
+      "3B": 0,
+      "HR": 2,
+      "BB": 5,
+      "K": 5,
+      "RBI": 10,
+      "R": 10,
+      "SB": 1,
+      "TB": 22
+    },
+    "players": [
+      {
+        "name": "Wilmer",
+        "slug": "wilmer",
+        "stats": {
+          "G": 1,
+          "PA": 5,
+          "AB": 4,
+          "H": 2,
+          "1B": 1,
+          "2B": 1,
+          "3B": 0,
+          "HR": 0,
+          "BB": 1,
+          "K": 1,
+          "RBI": 1,
+          "R": 2,
+          "SB": 1,
+          "TB": 3
+        },
+        "notes": "BB, 1B, 2B, K, Out",
+        "advanced": {
+          "AVG": 0.5,
+          "OBP": 0.6,
+          "SLG": 0.75,
+          "OPS": 1.35,
+          "ISO": 0.25,
+          "BB%": 0.2,
+          "K%": 0.2
+        }
+      },
+      {
+        "name": "Blake",
+        "slug": "blake",
+        "stats": {
+          "G": 1,
+          "PA": 5,
+          "AB": 3,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 2,
+          "K": 1,
+          "RBI": 0,
+          "R": 1,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "K, Out, BB, Out, BB",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0.4,
+          "SLG": 0,
+          "OPS": 0.4,
+          "ISO": 0,
+          "BB%": 0.4,
+          "K%": 0.2
+        }
+      },
+      {
+        "name": "Sean",
+        "slug": "sean",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Fredyan",
+        "slug": "fredyan",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 4,
+          "H": 3,
+          "1B": 3,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 2,
+          "R": 3,
+          "SB": 0,
+          "TB": 3
+        },
+        "notes": "1B, 1B, 1B, Out",
+        "advanced": {
+          "AVG": 0.75,
+          "OBP": 0.75,
+          "SLG": 0.75,
+          "OPS": 1.5,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Vik",
+        "slug": "vik",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 4,
+          "H": 2,
+          "1B": 2,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 2
+        },
+        "notes": "1B, Out, 1B, Out",
+        "advanced": {
+          "AVG": 0.5,
+          "OBP": 0.5,
+          "SLG": 0.5,
+          "OPS": 1,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Manuel",
+        "slug": "manuel",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Conway",
+        "slug": "conway",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 4,
+          "H": 2,
+          "1B": 2,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 1,
+          "R": 0,
+          "SB": 0,
+          "TB": 2
+        },
+        "notes": "Out, 1B, Out, 1B",
+        "advanced": {
+          "AVG": 0.5,
+          "OBP": 0.5,
+          "SLG": 0.5,
+          "OPS": 1,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Oxlac",
+        "slug": "oxlac",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Daniel",
+        "slug": "daniel",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 4,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 1,
+          "RBI": 0,
+          "R": 1,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "K, Out, Out, 1B",
+        "advanced": {
+          "AVG": 0.25,
+          "OBP": 0.25,
+          "SLG": 0.25,
+          "OPS": 0.5,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0.25
+        }
+      },
+      {
+        "name": "Luis",
+        "slug": "luis",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jordan",
+        "slug": "jordan",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Elvin",
+        "slug": "elvin",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 2,
+          "H": 2,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 2,
+          "BB": 2,
+          "K": 0,
+          "RBI": 5,
+          "R": 2,
+          "SB": 0,
+          "TB": 8
+        },
+        "notes": "BB, HR, HR, BB",
+        "advanced": {
+          "AVG": 1,
+          "OBP": 1,
+          "SLG": 4,
+          "OPS": 5,
+          "ISO": 3,
+          "BB%": 0.5,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jefferson",
+        "slug": "jefferson",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 4,
+          "H": 1,
+          "1B": 0,
+          "2B": 1,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 1,
+          "R": 1,
+          "SB": 0,
+          "TB": 2
+        },
+        "notes": "Out, Out, Out, 2B",
+        "advanced": {
+          "AVG": 0.25,
+          "OBP": 0.25,
+          "SLG": 0.5,
+          "OPS": 0.75,
+          "ISO": 0.25,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Moises",
+        "slug": "moises",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Luis G.",
+        "slug": "luis-g",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 4,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 2,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "1B, Out, K, K",
+        "advanced": {
+          "AVG": 0.25,
+          "OBP": 0.25,
+          "SLG": 0.25,
+          "OPS": 0.5,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0.5
+        }
+      }
+    ],
+    "advanced": {
+      "AVG": 0.42424242424242425,
+      "OBP": 0.5,
+      "SLG": 0.6666666666666666,
+      "OPS": 1.1666666666666665,
+      "ISO": 0.24242424242424238,
+      "BB%": 0.13157894736842105,
+      "K%": 0.13157894736842105
+    },
+    "badges": {
+      "mostHits": [
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 3
+        },
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 2
+        },
+        {
+          "name": "Vik",
+          "slug": "vik",
+          "value": 2
+        }
+      ],
+      "mostRBI": [
+        {
+          "name": "Elvin",
+          "slug": "elvin",
+          "value": 5
+        },
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 2
+        },
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 1
+        }
+      ],
+      "mostRuns": [
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 3
+        },
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 2
+        },
+        {
+          "name": "Elvin",
+          "slug": "elvin",
+          "value": 2
+        }
+      ],
+      "bigBat": [
+        {
+          "name": "Elvin",
+          "slug": "elvin",
+          "value": 8
+        },
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 3
+        },
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 3
+        }
+      ],
+      "walkMachine": [
+        {
+          "name": "Blake",
+          "slug": "blake",
+          "value": 2
+        },
+        {
+          "name": "Elvin",
+          "slug": "elvin",
+          "value": 2
+        },
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 1
+        }
+      ],
+      "extraBaseHit": [
+        {
+          "name": "Elvin",
+          "slug": "elvin",
+          "value": 2
+        },
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 1
+        },
+        {
+          "name": "Jefferson",
+          "slug": "jefferson",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "game-6",
+    "name": "Game 6",
+    "gameNumber": 6,
+    "played": true,
+    "date": "",
+    "opponent": "TBD",
+    "location": "",
+    "teamRuns": 13,
+    "opponentRuns": 10,
+    "result": "W",
+    "notes": "Opponent score/result not provided",
+    "teamTotals": {
+      "G": 9,
+      "PA": 36,
+      "AB": 33,
+      "H": 16,
+      "1B": 8,
+      "2B": 4,
+      "3B": 2,
+      "HR": 2,
+      "BB": 2,
+      "K": 7,
+      "RBI": 13,
+      "R": 13,
+      "SB": 0,
+      "TB": 30
+    },
+    "players": [
+      {
+        "name": "Wilmer",
+        "slug": "wilmer",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 3,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 1,
+          "K": 1,
+          "RBI": 1,
+          "R": 1,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "Out, BB, 1B, K",
+        "advanced": {
+          "AVG": 0.3333333333333333,
+          "OBP": 0.5,
+          "SLG": 0.3333333333333333,
+          "OPS": 0.8333333333333333,
+          "ISO": 0,
+          "BB%": 0.25,
+          "K%": 0.25
+        }
+      },
+      {
+        "name": "Blake",
+        "slug": "blake",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Sean",
+        "slug": "sean",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 4,
+          "H": 1,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 1,
+          "BB": 0,
+          "K": 0,
+          "RBI": 2,
+          "R": 1,
+          "SB": 0,
+          "TB": 4
+        },
+        "notes": "Out, HR, Out, Out",
+        "advanced": {
+          "AVG": 0.25,
+          "OBP": 0.25,
+          "SLG": 1,
+          "OPS": 1.25,
+          "ISO": 0.75,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Fredyan",
+        "slug": "fredyan",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 4,
+          "H": 3,
+          "1B": 0,
+          "2B": 0,
+          "3B": 2,
+          "HR": 1,
+          "BB": 0,
+          "K": 1,
+          "RBI": 5,
+          "R": 3,
+          "SB": 0,
+          "TB": 10
+        },
+        "notes": "K, 3B, HR, 3B",
+        "advanced": {
+          "AVG": 0.75,
+          "OBP": 0.75,
+          "SLG": 2.5,
+          "OPS": 3.25,
+          "ISO": 1.75,
+          "BB%": 0,
+          "K%": 0.25
+        }
+      },
+      {
+        "name": "Vik",
+        "slug": "vik",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 4,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 3,
+          "RBI": 0,
+          "R": 1,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "K, K, K, 1B",
+        "advanced": {
+          "AVG": 0.25,
+          "OBP": 0.25,
+          "SLG": 0.25,
+          "OPS": 0.5,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0.75
+        }
+      },
+      {
+        "name": "Manuel",
+        "slug": "manuel",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 3,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 1,
+          "RBI": 1,
+          "R": 1,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "K, Out, SF/RBI, 1B",
+        "advanced": {
+          "AVG": 0.3333333333333333,
+          "OBP": 0.3333333333333333,
+          "SLG": 0.3333333333333333,
+          "OPS": 0.6666666666666666,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0.25
+        }
+      },
+      {
+        "name": "Conway",
+        "slug": "conway",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Oxlac",
+        "slug": "oxlac",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Daniel",
+        "slug": "daniel",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 4,
+          "H": 3,
+          "1B": 2,
+          "2B": 1,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 1,
+          "RBI": 1,
+          "R": 2,
+          "SB": 0,
+          "TB": 4
+        },
+        "notes": "1B, 2B, 1B, K",
+        "advanced": {
+          "AVG": 0.75,
+          "OBP": 0.75,
+          "SLG": 1,
+          "OPS": 1.75,
+          "ISO": 0.25,
+          "BB%": 0,
+          "K%": 0.25
+        }
+      },
+      {
+        "name": "Luis",
+        "slug": "luis",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jordan",
+        "slug": "jordan",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Elvin",
+        "slug": "elvin",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 3,
+          "H": 3,
+          "1B": 2,
+          "2B": 1,
+          "3B": 0,
+          "HR": 0,
+          "BB": 1,
+          "K": 0,
+          "RBI": 1,
+          "R": 3,
+          "SB": 0,
+          "TB": 4
+        },
+        "notes": "1B, 2B, 1B, BB",
+        "advanced": {
+          "AVG": 1,
+          "OBP": 1,
+          "SLG": 1.3333333333333333,
+          "OPS": 2.333333333333333,
+          "ISO": 0.33333333333333326,
+          "BB%": 0.25,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jefferson",
+        "slug": "jefferson",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 4,
+          "H": 3,
+          "1B": 1,
+          "2B": 2,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 2,
+          "R": 1,
+          "SB": 0,
+          "TB": 5
+        },
+        "notes": "Out, 2B, 2B, 1B",
+        "advanced": {
+          "AVG": 0.75,
+          "OBP": 0.75,
+          "SLG": 1.25,
+          "OPS": 2,
+          "ISO": 0.5,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Moises",
+        "slug": "moises",
+        "stats": {
+          "G": 1,
+          "PA": 4,
+          "AB": 4,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "Out, Out, Out, Out",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Luis G.",
+        "slug": "luis-g",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      }
+    ],
+    "advanced": {
+      "AVG": 0.48484848484848486,
+      "OBP": 0.5142857142857142,
+      "SLG": 0.9090909090909091,
+      "OPS": 1.4233766233766234,
+      "ISO": 0.4242424242424242,
+      "BB%": 0.05555555555555555,
+      "K%": 0.19444444444444445
+    },
+    "badges": {
+      "mostHits": [
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 3
+        },
+        {
+          "name": "Daniel",
+          "slug": "daniel",
+          "value": 3
+        },
+        {
+          "name": "Elvin",
+          "slug": "elvin",
+          "value": 3
+        }
+      ],
+      "mostRBI": [
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 5
+        },
+        {
+          "name": "Sean",
+          "slug": "sean",
+          "value": 2
+        },
+        {
+          "name": "Jefferson",
+          "slug": "jefferson",
+          "value": 2
+        }
+      ],
+      "mostRuns": [
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 3
+        },
+        {
+          "name": "Elvin",
+          "slug": "elvin",
+          "value": 3
+        },
+        {
+          "name": "Daniel",
+          "slug": "daniel",
+          "value": 2
+        }
+      ],
+      "bigBat": [
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 10
+        },
+        {
+          "name": "Jefferson",
+          "slug": "jefferson",
+          "value": 5
+        },
+        {
+          "name": "Sean",
+          "slug": "sean",
+          "value": 4
+        }
+      ],
+      "walkMachine": [
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 1
+        },
+        {
+          "name": "Elvin",
+          "slug": "elvin",
+          "value": 1
+        }
+      ],
+      "extraBaseHit": [
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 3
+        },
+        {
+          "name": "Jefferson",
+          "slug": "jefferson",
+          "value": 2
+        },
+        {
+          "name": "Sean",
+          "slug": "sean",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "game-7",
+    "name": "Game 7",
+    "gameNumber": 7,
+    "played": true,
+    "date": "",
+    "opponent": "TBD",
+    "location": "",
+    "teamRuns": 2,
+    "opponentRuns": 7,
+    "result": "L",
+    "notes": "",
+    "teamTotals": {
+      "G": 1,
+      "PA": 3,
+      "AB": 3,
+      "H": 1,
+      "1B": 1,
+      "2B": 0,
+      "3B": 0,
+      "HR": 0,
+      "BB": 0,
+      "K": 0,
+      "RBI": 0,
+      "R": 0,
+      "SB": 0,
+      "TB": 1
+    },
+    "players": [
+      {
+        "name": "Wilmer",
+        "slug": "wilmer",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Blake",
+        "slug": "blake",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Sean",
+        "slug": "sean",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Fredyan",
+        "slug": "fredyan",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Vik",
+        "slug": "vik",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0.3333333333333333,
+          "OBP": 0.3333333333333333,
+          "SLG": 0.3333333333333333,
+          "OPS": 0.6666666666666666,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Manuel",
+        "slug": "manuel",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Conway",
+        "slug": "conway",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Oxlac",
+        "slug": "oxlac",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Daniel",
+        "slug": "daniel",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Luis",
+        "slug": "luis",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jordan",
+        "slug": "jordan",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Elvin",
+        "slug": "elvin",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jefferson",
+        "slug": "jefferson",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Moises",
+        "slug": "moises",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Luis G.",
+        "slug": "luis-g",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      }
+    ],
+    "advanced": {
+      "AVG": 0.3333333333333333,
+      "OBP": 0.3333333333333333,
+      "SLG": 0.3333333333333333,
+      "OPS": 0.6666666666666666,
+      "ISO": 0,
+      "BB%": 0,
+      "K%": 0
+    },
+    "badges": {
+      "mostHits": [
+        {
+          "name": "Vik",
+          "slug": "vik",
+          "value": 1
+        }
+      ],
+      "mostRBI": [],
+      "mostRuns": [],
+      "bigBat": [
+        {
+          "name": "Vik",
+          "slug": "vik",
+          "value": 1
+        }
+      ],
+      "walkMachine": [],
+      "extraBaseHit": []
+    }
+  },
+  {
+    "id": "game-8",
+    "name": "Game 8",
+    "gameNumber": 8,
+    "played": true,
+    "date": "",
+    "opponent": "TBD",
+    "location": "",
+    "teamRuns": 5,
+    "opponentRuns": 1,
+    "result": "W",
+    "notes": "Score/result is present in the workbook, but opponent/date were not filled in.",
+    "teamTotals": {
+      "G": 10,
+      "PA": 28,
+      "AB": 24,
+      "H": 12,
+      "1B": 9,
+      "2B": 2,
+      "3B": 1,
+      "HR": 0,
+      "BB": 3,
+      "K": 4,
+      "RBI": 5,
+      "R": 5,
+      "SB": 0,
+      "TB": 16
+    },
+    "players": [
+      {
+        "name": "Wilmer",
+        "slug": "wilmer",
+        "stats": {
+          "G": 1,
+          "PA": 2,
+          "AB": 1,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 1,
+          "K": 1,
+          "RBI": 0,
+          "R": 1,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "BB, K",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0.5,
+          "SLG": 0,
+          "OPS": 0.5,
+          "ISO": 0,
+          "BB%": 0.5,
+          "K%": 0.5
+        }
+      },
+      {
+        "name": "Blake",
+        "slug": "blake",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 2,
+          "H": 1,
+          "1B": 0,
+          "2B": 1,
+          "3B": 0,
+          "HR": 0,
+          "BB": 1,
+          "K": 1,
+          "RBI": 0,
+          "R": 1,
+          "SB": 0,
+          "TB": 2
+        },
+        "notes": "K, 2B, BB",
+        "advanced": {
+          "AVG": 0.5,
+          "OBP": 0.6666666666666666,
+          "SLG": 1,
+          "OPS": 1.6666666666666665,
+          "ISO": 0.5,
+          "BB%": 0.3333333333333333,
+          "K%": 0.3333333333333333
+        }
+      },
+      {
+        "name": "Sean",
+        "slug": "sean",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 1,
+          "1B": 0,
+          "2B": 1,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 2
+        },
+        "notes": "2B, Out, Out",
+        "advanced": {
+          "AVG": 0.3333333333333333,
+          "OBP": 0.3333333333333333,
+          "SLG": 0.6666666666666666,
+          "OPS": 1,
+          "ISO": 0.3333333333333333,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Fredyan",
+        "slug": "fredyan",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 2,
+          "1B": 1,
+          "2B": 0,
+          "3B": 1,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 2,
+          "R": 1,
+          "SB": 0,
+          "TB": 4
+        },
+        "notes": "3B, 1B, Out",
+        "advanced": {
+          "AVG": 0.6666666666666666,
+          "OBP": 0.6666666666666666,
+          "SLG": 1.3333333333333333,
+          "OPS": 2,
+          "ISO": 0.6666666666666666,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Vik",
+        "slug": "vik",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 2,
+          "1B": 2,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 2
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0.6666666666666666,
+          "OBP": 0.6666666666666666,
+          "SLG": 0.6666666666666666,
+          "OPS": 1.3333333333333333,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Manuel",
+        "slug": "manuel",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Conway",
+        "slug": "conway",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Oxlac",
+        "slug": "oxlac",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Daniel",
+        "slug": "daniel",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 2,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "K, Out, K",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0.6666666666666666
+        }
+      },
+      {
+        "name": "Luis",
+        "slug": "luis",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 2,
+          "1B": 2,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 2
+        },
+        "notes": "1B, Out, 1B",
+        "advanced": {
+          "AVG": 0.6666666666666666,
+          "OBP": 0.6666666666666666,
+          "SLG": 0.6666666666666666,
+          "OPS": 1.3333333333333333,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jordan",
+        "slug": "jordan",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Elvin",
+        "slug": "elvin",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 2,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 1,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "SF, Out, Out",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jefferson",
+        "slug": "jefferson",
+        "stats": {
+          "G": 1,
+          "PA": 2,
+          "AB": 1,
+          "H": 1,
+          "1B": 1,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 1,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 1
+        },
+        "notes": "BB, 1B",
+        "advanced": {
+          "AVG": 1,
+          "OBP": 1,
+          "SLG": 1,
+          "OPS": 2,
+          "ISO": 0,
+          "BB%": 0.5,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Moises",
+        "slug": "moises",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Luis G.",
+        "slug": "luis-g",
+        "stats": {
+          "G": 1,
+          "PA": 3,
+          "AB": 3,
+          "H": 3,
+          "1B": 3,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 2,
+          "R": 2,
+          "SB": 0,
+          "TB": 3
+        },
+        "notes": "1B, 1B, 1B",
+        "advanced": {
+          "AVG": 1,
+          "OBP": 1,
+          "SLG": 1,
+          "OPS": 2,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      }
+    ],
+    "advanced": {
+      "AVG": 0.5,
+      "OBP": 0.5555555555555556,
+      "SLG": 0.6666666666666666,
+      "OPS": 1.2222222222222223,
+      "ISO": 0.16666666666666663,
+      "BB%": 0.10714285714285714,
+      "K%": 0.14285714285714285
+    },
+    "badges": {
+      "mostHits": [
+        {
+          "name": "Luis G.",
+          "slug": "luis-g",
+          "value": 3
+        },
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 2
+        },
+        {
+          "name": "Vik",
+          "slug": "vik",
+          "value": 2
+        }
+      ],
+      "mostRBI": [
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 2
+        },
+        {
+          "name": "Luis G.",
+          "slug": "luis-g",
+          "value": 2
+        },
+        {
+          "name": "Elvin",
+          "slug": "elvin",
+          "value": 1
+        }
+      ],
+      "mostRuns": [
+        {
+          "name": "Luis G.",
+          "slug": "luis-g",
+          "value": 2
+        },
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 1
+        },
+        {
+          "name": "Blake",
+          "slug": "blake",
+          "value": 1
+        }
+      ],
+      "bigBat": [
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 4
+        },
+        {
+          "name": "Luis G.",
+          "slug": "luis-g",
+          "value": 3
+        },
+        {
+          "name": "Blake",
+          "slug": "blake",
+          "value": 2
+        }
+      ],
+      "walkMachine": [
+        {
+          "name": "Wilmer",
+          "slug": "wilmer",
+          "value": 1
+        },
+        {
+          "name": "Blake",
+          "slug": "blake",
+          "value": 1
+        },
+        {
+          "name": "Jefferson",
+          "slug": "jefferson",
+          "value": 1
+        }
+      ],
+      "extraBaseHit": [
+        {
+          "name": "Blake",
+          "slug": "blake",
+          "value": 1
+        },
+        {
+          "name": "Sean",
+          "slug": "sean",
+          "value": 1
+        },
+        {
+          "name": "Fredyan",
+          "slug": "fredyan",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "game-9",
+    "name": "Game 9",
+    "gameNumber": 9,
+    "played": false,
+    "date": "",
+    "opponent": "TBD",
+    "location": "",
+    "teamRuns": 0,
+    "opponentRuns": 0,
+    "result": "TBD",
+    "notes": "Add metadata here when this game is played.",
+    "teamTotals": {
+      "G": 0,
+      "PA": 0,
+      "AB": 0,
+      "H": 0,
+      "1B": 0,
+      "2B": 0,
+      "3B": 0,
+      "HR": 0,
+      "BB": 0,
+      "K": 0,
+      "RBI": 0,
+      "R": 0,
+      "SB": 0,
+      "TB": 0
+    },
+    "players": [
+      {
+        "name": "Wilmer",
+        "slug": "wilmer",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Blake",
+        "slug": "blake",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Sean",
+        "slug": "sean",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Fredyan",
+        "slug": "fredyan",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Vik",
+        "slug": "vik",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Manuel",
+        "slug": "manuel",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Conway",
+        "slug": "conway",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Oxlac",
+        "slug": "oxlac",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Daniel",
+        "slug": "daniel",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Luis",
+        "slug": "luis",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jordan",
+        "slug": "jordan",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Elvin",
+        "slug": "elvin",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jefferson",
+        "slug": "jefferson",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Moises",
+        "slug": "moises",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Luis G.",
+        "slug": "luis-g",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      }
+    ],
+    "advanced": {
+      "AVG": 0,
+      "OBP": 0,
+      "SLG": 0,
+      "OPS": 0,
+      "ISO": 0,
+      "BB%": 0,
+      "K%": 0
+    },
+    "badges": {
+      "mostHits": [],
+      "mostRBI": [],
+      "mostRuns": [],
+      "bigBat": [],
+      "walkMachine": [],
+      "extraBaseHit": []
+    }
+  },
+  {
+    "id": "game-10",
+    "name": "Game 10",
+    "gameNumber": 10,
+    "played": false,
+    "date": "",
+    "opponent": "TBD",
+    "location": "",
+    "teamRuns": 0,
+    "opponentRuns": 0,
+    "result": "TBD",
+    "notes": "Add metadata here when this game is played.",
+    "teamTotals": {
+      "G": 0,
+      "PA": 0,
+      "AB": 0,
+      "H": 0,
+      "1B": 0,
+      "2B": 0,
+      "3B": 0,
+      "HR": 0,
+      "BB": 0,
+      "K": 0,
+      "RBI": 0,
+      "R": 0,
+      "SB": 0,
+      "TB": 0
+    },
+    "players": [
+      {
+        "name": "Wilmer",
+        "slug": "wilmer",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Blake",
+        "slug": "blake",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Sean",
+        "slug": "sean",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Fredyan",
+        "slug": "fredyan",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Vik",
+        "slug": "vik",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Manuel",
+        "slug": "manuel",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Conway",
+        "slug": "conway",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Oxlac",
+        "slug": "oxlac",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Daniel",
+        "slug": "daniel",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Luis",
+        "slug": "luis",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jordan",
+        "slug": "jordan",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Elvin",
+        "slug": "elvin",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Jefferson",
+        "slug": "jefferson",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Moises",
+        "slug": "moises",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      },
+      {
+        "name": "Luis G.",
+        "slug": "luis-g",
+        "stats": {
+          "G": 0,
+          "PA": 0,
+          "AB": 0,
+          "H": 0,
+          "1B": 0,
+          "2B": 0,
+          "3B": 0,
+          "HR": 0,
+          "BB": 0,
+          "K": 0,
+          "RBI": 0,
+          "R": 0,
+          "SB": 0,
+          "TB": 0
+        },
+        "notes": "DNP",
+        "advanced": {
+          "AVG": 0,
+          "OBP": 0,
+          "SLG": 0,
+          "OPS": 0,
+          "ISO": 0,
+          "BB%": 0,
+          "K%": 0
+        }
+      }
+    ],
+    "advanced": {
+      "AVG": 0,
+      "OBP": 0,
+      "SLG": 0,
+      "OPS": 0,
+      "ISO": 0,
+      "BB%": 0,
+      "K%": 0
+    },
+    "badges": {
+      "mostHits": [],
+      "mostRBI": [],
+      "mostRuns": [],
+      "bigBat": [],
+      "walkMachine": [],
+      "extraBaseHit": []
+    }
+  }
+]

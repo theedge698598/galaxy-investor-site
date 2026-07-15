@@ -1,0 +1,39 @@
+{
+  "importedAt": "2026-07-15T05:11:05.443Z",
+  "sourceFile": "data/team6-season-stats.xlsm",
+  "metadataFile": "data/game-metadata.json",
+  "sheetNames": [
+    "Season Totals",
+    "Advanced Stats",
+    "Team Stats",
+    "Game 1",
+    "Game 2",
+    "Game 3",
+    "Game 4",
+    "Game 5",
+    "Game 6",
+    "Game 7",
+    "Game 8",
+    "Game 9",
+    "Game 10",
+    "Instructions",
+    "Team Leaders"
+  ],
+  "inspected": {
+    "playerCount": 15,
+    "gameCount": 10,
+    "statRowsParsed": 165,
+    "hasSeasonTotals": true,
+    "hasTeamStats": true,
+    "hasTeamLeaders": true,
+    "hasAdvancedStats": true,
+    "qualifyingPA": 10
+  },
+  "warnings": [
+    "Game 3 is missing date and opponent; add it to data/game-metadata.json or workbook.",
+    "Game 4 is missing date and opponent; add it to data/game-metadata.json or workbook.",
+    "Game 6 is missing date and opponent; add it to data/game-metadata.json or workbook.",
+    "Game 7 is missing date and opponent; add it to data/game-metadata.json or workbook.",
+    "Game 8 is missing date and opponent; add it to data/game-metadata.json or workbook."
+  ]
+}
