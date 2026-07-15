@@ -1,5 +1,5 @@
 {
-  "importedAt": "2026-07-15T05:11:05.443Z",
+  "importedAt": "2026-07-15T15:26:28.587Z",
   "sourceFile": "data/team6-season-stats.xlsm",
   "metadataFile": "data/game-metadata.json",
   "sheetNames": [
@@ -30,10 +30,10 @@
     "qualifyingPA": 10
   },
   "warnings": [
-    "Game 3 is missing date and opponent; add it to data/game-metadata.json or workbook.",
-    "Game 4 is missing date and opponent; add it to data/game-metadata.json or workbook.",
-    "Game 6 is missing date and opponent; add it to data/game-metadata.json or workbook.",
-    "Game 7 is missing date and opponent; add it to data/game-metadata.json or workbook.",
-    "Game 8 is missing date and opponent; add it to data/game-metadata.json or workbook."
+    "Game 3 is missing date; add it to data/game-metadata.json or workbook.",
+    "Game 4 is missing date; add it to data/game-metadata.json or workbook.",
+    "Game 6 is missing date; add it to data/game-metadata.json or workbook.",
+    "Game 7 is missing date; add it to data/game-metadata.json or workbook.",
+    "Game 8 is missing date; add it to data/game-metadata.json or workbook."
   ]
 }

@@ -90,7 +90,7 @@
     {
       "game": "Game 3",
       "gameNumber": 3,
-      "opponent": "TBD",
+      "opponent": "KMS",
       "date": "",
       "runs": 1,
       "hits": 6,
@@ -104,7 +104,7 @@
     {
       "game": "Game 4",
       "gameNumber": 4,
-      "opponent": "TBD",
+      "opponent": "Sting",
       "date": "",
       "runs": 5,
       "hits": 10,
@@ -132,7 +132,7 @@
     {
       "game": "Game 6",
       "gameNumber": 6,
-      "opponent": "TBD",
+      "opponent": "UCE",
       "date": "",
       "runs": 13,
       "hits": 16,
@@ -146,7 +146,7 @@
     {
       "game": "Game 7",
       "gameNumber": 7,
-      "opponent": "TBD",
+      "opponent": "KMS",
       "date": "",
       "runs": 2,
       "hits": 1,
@@ -160,7 +160,7 @@
     {
       "game": "Game 8",
       "gameNumber": 8,
-      "opponent": "TBD",
+      "opponent": "Sting",
       "date": "",
       "runs": 5,
       "hits": 12,
