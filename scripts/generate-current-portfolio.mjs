@@ -10,7 +10,7 @@ const args = new Map(process.argv.slice(2).map(arg => {
 const source = (args.get('source') || process.env.PORTFOLIO_OS_SOURCE || 'http://127.0.0.1:5201').replace(/\/$/, '');
 const output = args.get('output') || 'portfolio/index.html';
 const timezone = args.get('timezone') || 'America/Toronto';
-const scope = String(args.get('scope') || process.env.PORTFOLIO_SCOPE || 'combined').toLowerCase();
+const scope = String(args.get('scope') || process.env.PORTFOLIO_SCOPE || 'stocks').toLowerCase();
 
 const money = new Intl.NumberFormat('en-CA', { maximumFractionDigits: 0 });
 
