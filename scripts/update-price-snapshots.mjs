@@ -19,7 +19,6 @@ const articles = [
     yahooSymbol: 'QCOM',
     homepageMetaRegex: /Stock primer · Semiconductors · Published May 2, 2026(?: · Updated [^·<]+)?(?: ?· ?[+\-−]\d+(?:\.\d+)?% since publish)*/g,
     homepageMeta: () => `Stock primer · Semiconductors · Published May 2, 2026 · Updated ${today}`,
-    featuredChipRegex: /<span class="chip" style="background:var\(--edge-soft\);color:var\(--edge-deep\)">[+-]\d+(?:\.\d+)?% since publish<\/span>/g,
   },
   {
     ticker: 'SYRUP',
@@ -131,14 +130,18 @@ for (const path of ['index.html', 'research/index.html']) {
 let researchIndex = await readFile('research/index.html', 'utf8');
 const qcom = articles.find(article => article.ticker === 'QCOM');
 const chip = `<span class="chip" style="background:var(--edge-soft);color:var(--edge-deep)">${qcom.return} since publish</span>`;
-if (qcom.featuredChipRegex.test(researchIndex)) {
-  researchIndex = researchIndex.replace(qcom.featuredChipRegex, chip);
-} else {
-  researchIndex = replaceOnce(
-    researchIndex,
-    /<span class="chip">Featured<\/span><span class="chip">Stock primer<\/span><span class="chip">Published May 2, 2026<\/span>/,
-    `<span class="chip">Featured</span><span class="chip">Stock primer</span><span class="chip">Published May 2, 2026</span>${chip}`,
-    'research featured QCOM chip'
-  );
-}
+// Strip any existing return chips first, then insert exactly one fresh chip.
+// Idempotent: also collapses any historic stack. The character class covers both
+// the ASCII hyphen and U+2212 minus sign that returnText() emits for negatives;
+// the old regex only matched ASCII, so every down day appended a duplicate chip.
+researchIndex = researchIndex.replace(
+  /<span class="chip" style="background:var\(--edge-soft\);color:var\(--edge-deep\)">[+\-\u2212]\d+(?:\.\d+)?% since publish<\/span>/g,
+  ''
+);
+researchIndex = replaceOnce(
+  researchIndex,
+  /(<span class="chip">Featured<\/span><span class="chip">Stock primer<\/span><span class="chip">Published May 2, 2026<\/span>)/,
+  `$1${chip}`,
+  'research featured QCOM chip'
+);
 await writeFile('research/index.html', researchIndex);
